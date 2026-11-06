@@ -22,15 +22,6 @@ El proyecto integra información documental y actividades interactivas. Los cál
 
 Abre `index.html` con un navegador moderno o visita la versión publicada en GitHub Pages. Utiliza el menú para cambiar entre módulos y sigue el contenido en el orden presentado: explicación, análisis, experimentación y exploración.
 
-## Publicación en GitHub Pages
-
-1. Descomprime el ZIP.
-2. Sube **todos los archivos y carpetas de su interior** a la raíz del repositorio, incluyendo `index.html`, `styles.css`, los archivos JavaScript, `assets/`, `datos/` y `fuentes/`.
-3. En **Settings → Pages**, selecciona **Deploy from a branch**, rama `main`, carpeta `/(root)` y guarda.
-4. Abre la URL que GitHub Pages indique para tu repositorio.
-
-**Importante:** `index.html` no es un archivo completamente autónomo; requiere sus recursos asociados. No publiques únicamente el HTML.
-
 ## Alcance y fuentes
 
 Las fuentes documentales incluidas en el proyecto se encuentran en `fuentes/`. Las representaciones geográficas, los indicadores y los simuladores deben interpretarse de acuerdo con las notas metodológicas y el alcance indicado en cada módulo. El sitio tiene fines académicos y educativos.
