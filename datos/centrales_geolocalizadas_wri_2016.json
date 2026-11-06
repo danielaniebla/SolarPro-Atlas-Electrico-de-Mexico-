@@ -1,0 +1,192 @@
+[
+  {
+    "nombre": "Infiernillo",
+    "id_wri": "MEX0001854",
+    "lat": 18.2711,
+    "lon": -101.8939,
+    "capacidad_wri_2016_mw": 1200,
+    "combustible_wri": "Hydro",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Guerrero"
+  },
+  {
+    "nombre": "La Villita",
+    "id_wri": "MEX0001864",
+    "lat": 18.0457,
+    "lon": -102.1825,
+    "capacidad_wri_2016_mw": 320,
+    "combustible_wri": "Hydro",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Michoacán"
+  },
+  {
+    "nombre": "Petacalco",
+    "id_wri": "MEX0001765",
+    "lat": 17.9837,
+    "lon": -102.1154,
+    "capacidad_wri_2016_mw": 2778.4,
+    "combustible_wri": "Coal",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Guerrero"
+  },
+  {
+    "nombre": "Angostura",
+    "id_wri": "MEX0001857",
+    "lat": 16.4018,
+    "lon": -92.7784,
+    "capacidad_wri_2016_mw": 900,
+    "combustible_wri": "Hydro",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Chiapas"
+  },
+  {
+    "nombre": "Chicoasén",
+    "id_wri": "MEX0001853",
+    "lat": 16.9428,
+    "lon": -93.1012,
+    "capacidad_wri_2016_mw": 2400,
+    "combustible_wri": "Hydro",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Chiapas"
+  },
+  {
+    "nombre": "Malpaso",
+    "id_wri": "MEX0001855",
+    "lat": 17.1806,
+    "lon": -93.5973,
+    "capacidad_wri_2016_mw": 1080,
+    "combustible_wri": "Hydro",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Chiapas"
+  },
+  {
+    "nombre": "Peñitas",
+    "id_wri": "MEX0001862",
+    "lat": 17.4463,
+    "lon": -93.4628,
+    "capacidad_wri_2016_mw": 420,
+    "combustible_wri": "Hydro",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Chiapas"
+  },
+  {
+    "nombre": "Temascal",
+    "id_wri": "MEX0001863",
+    "lat": 18.2324,
+    "lon": -96.4115,
+    "capacidad_wri_2016_mw": 354,
+    "combustible_wri": "Hydro",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Oaxaca"
+  },
+  {
+    "nombre": "Caracol",
+    "id_wri": "MEX0001860",
+    "lat": 17.9505,
+    "lon": -99.9943,
+    "capacidad_wri_2016_mw": 600,
+    "combustible_wri": "Hydro",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Guerrero"
+  },
+  {
+    "nombre": "Humero",
+    "id_wri": "MEX0006617",
+    "lat": 19.6465,
+    "lon": -97.4375,
+    "capacidad_wri_2016_mw": 68.6,
+    "combustible_wri": "Geothermal",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Puebla"
+  },
+  {
+    "nombre": "Laguna Verde",
+    "id_wri": "MEX0001769",
+    "lat": 19.7208,
+    "lon": -96.4064,
+    "capacidad_wri_2016_mw": 1510,
+    "combustible_wri": "Nuclear",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Veracruz"
+  },
+  {
+    "nombre": "Tuxpan",
+    "id_wri": "MEX0001766",
+    "lat": 21.0151,
+    "lon": -97.3334,
+    "capacidad_wri_2016_mw": 2100,
+    "combustible_wri": "Oil",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Veracruz"
+  },
+  {
+    "nombre": "Aguamilpa",
+    "id_wri": "MEX0001856",
+    "lat": 21.8395,
+    "lon": -104.8038,
+    "capacidad_wri_2016_mw": 960,
+    "combustible_wri": "Hydro",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Nayarit"
+  },
+  {
+    "nombre": "El Cajón",
+    "id_wri": "MEX0001858",
+    "lat": 21.4279,
+    "lon": -104.4507,
+    "capacidad_wri_2016_mw": 750,
+    "combustible_wri": "Hydro",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Nayarit"
+  },
+  {
+    "nombre": "Los Azufres",
+    "id_wri": "MEX0001870",
+    "lat": 19.791,
+    "lon": -100.6669,
+    "capacidad_wri_2016_mw": 225,
+    "combustible_wri": "Geothermal",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Michoacán"
+  },
+  {
+    "nombre": "El Novillo",
+    "id_wri": "MEX0001872",
+    "lat": 28.978,
+    "lon": -109.642,
+    "capacidad_wri_2016_mw": 135,
+    "combustible_wri": "Hydro",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Sonora"
+  },
+  {
+    "nombre": "Cerro Prieto I–IV",
+    "id_wri": "MEX0001868",
+    "lat": 32.3916,
+    "lon": -115.2252,
+    "capacidad_wri_2016_mw": 570,
+    "combustible_wri": "Geothermal",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Baja California"
+  },
+  {
+    "nombre": "Valladolid III",
+    "id_wri": "MEX0001790",
+    "lat": 20.6931,
+    "lon": -88.2675,
+    "capacidad_wri_2016_mw": 525,
+    "combustible_wri": "Gas",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Yucatán"
+  },
+  {
+    "nombre": "Punta Prieta",
+    "id_wri": "MEX0001850",
+    "lat": 24.2233,
+    "lon": -110.3093,
+    "capacidad_wri_2016_mw": 112.5,
+    "combustible_wri": "Oil",
+    "anio_geografia": 2016,
+    "estado_catalogo_2018": "Baja California Sur"
+  }
+]

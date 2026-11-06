@@ -1,0 +1,222 @@
+[
+  {
+    "nombre": "Infiernillo",
+    "estado": "Guerrero",
+    "municipio": "La Unión",
+    "tecnologia": "Hidroeléctrica",
+    "capacidad_mw": 1200,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "La Villita",
+    "estado": "Michoacán",
+    "municipio": "Lázaro Cárdenas",
+    "tecnologia": "Hidroeléctrica",
+    "capacidad_mw": 320,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Tula",
+    "estado": "Hidalgo",
+    "municipio": "Tula",
+    "tecnologia": "Térmica convencional / ciclo combinado",
+    "capacidad_mw": 1881,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Petacalco",
+    "estado": "Guerrero",
+    "municipio": "La Unión",
+    "tecnologia": "Carboeléctrica",
+    "capacidad_mw": 2778,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Angostura",
+    "estado": "Chiapas",
+    "municipio": "Venustiano Carranza",
+    "tecnologia": "Hidroeléctrica",
+    "capacidad_mw": 900,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Chicoasén",
+    "estado": "Chiapas",
+    "municipio": "Chicoasén",
+    "tecnologia": "Hidroeléctrica",
+    "capacidad_mw": 2400,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Malpaso",
+    "estado": "Chiapas",
+    "municipio": "Tecpatán",
+    "tecnologia": "Hidroeléctrica",
+    "capacidad_mw": 1080,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Peñitas",
+    "estado": "Chiapas",
+    "municipio": "Ostuacán",
+    "tecnologia": "Hidroeléctrica",
+    "capacidad_mw": 420,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Temascal",
+    "estado": "Oaxaca",
+    "municipio": "San Miguel",
+    "tecnologia": "Hidroeléctrica",
+    "capacidad_mw": 354,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Caracol",
+    "estado": "Guerrero",
+    "municipio": "Apaxtla",
+    "tecnologia": "Hidroeléctrica",
+    "capacidad_mw": 600,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Humero",
+    "estado": "Puebla",
+    "municipio": "Chignahuapan",
+    "tecnologia": "Geotérmica",
+    "capacidad_mw": 69,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Laguna Verde",
+    "estado": "Veracruz",
+    "municipio": "Alto Lucero",
+    "tecnologia": "Nuclear",
+    "capacidad_mw": 1608,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Tuxpan",
+    "estado": "Veracruz",
+    "municipio": "Tuxpan",
+    "tecnologia": "Térmica convencional",
+    "capacidad_mw": 1750,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Aguamilpa",
+    "estado": "Nayarit",
+    "municipio": "El Nayar",
+    "tecnologia": "Hidroeléctrica",
+    "capacidad_mw": 960,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "El Cajón",
+    "estado": "Nayarit",
+    "municipio": "Santa María del Oro",
+    "tecnologia": "Hidroeléctrica",
+    "capacidad_mw": 750,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Los Azufres",
+    "estado": "Michoacán",
+    "municipio": "Ciudad Hidalgo",
+    "tecnologia": "Geotérmica",
+    "capacidad_mw": 245,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "El Novillo",
+    "estado": "Sonora",
+    "municipio": "Soyopa",
+    "tecnologia": "Hidroeléctrica",
+    "capacidad_mw": 135,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Agua Prieta II",
+    "estado": "Sonora",
+    "municipio": "Agua Prieta",
+    "tecnologia": "Ciclo combinado",
+    "capacidad_mw": 409,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Cerro Prieto I–IV",
+    "estado": "Baja California",
+    "municipio": "Mexicali",
+    "tecnologia": "Geotérmica",
+    "capacidad_mw": 340,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Valladolid III",
+    "estado": "Yucatán",
+    "municipio": "Valladolid",
+    "tecnologia": "Ciclo combinado",
+    "capacidad_mw": 525,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Río Escondido y Carbón II",
+    "estado": "Coahuila",
+    "municipio": "Río Escondido",
+    "tecnologia": "Carboeléctrica",
+    "capacidad_mw": 2600,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  },
+  {
+    "nombre": "Punta Prieta",
+    "estado": "Baja California Sur",
+    "municipio": "La Paz",
+    "tecnologia": "Térmica convencional",
+    "capacidad_mw": 113,
+    "anio": 2018,
+    "fuente": "SENER PRODESEN 2019-2033, tabla 5.2, pp. 23-24",
+    "coordenadas": null
+  }
+]

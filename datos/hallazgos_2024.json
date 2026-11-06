@@ -1,0 +1,509 @@
+[
+  {
+    "cat": "recursos",
+    "title": "¿Qué proporción de la electricidad mexicana se generó con combustibles fósiles?",
+    "caption": "68.8 % fósil frente a 31.2 % de energías limpias (México, 2022)",
+    "values": [
+      {
+        "label": "Fósiles",
+        "value": 68.8
+      },
+      {
+        "label": "Limpias",
+        "value": 31.2
+      }
+    ],
+    "unit": "%",
+    "source": "SENER, PRODESEN 2023–2037, capítulo 4, p. impresa 59 (PDF del capítulo, p. 11), figura 4.9 y texto",
+    "note": "Cobertura: generación total del Sistema Eléctrico Nacional en 2022 (340,713 GWh). «Limpia» no equivale necesariamente a «renovable»; comprende tecnologías adicionales, incluida la nuclear. Participaciones oficiales, no un cálculo sobre una filial.",
+    "year": "2022",
+    "kind": "Dato nacional oficial",
+    "chart": "share",
+    "document": "fuentes/PRODESEN_2023_2037_Capitulo4.pdf",
+    "scope": "Sistema Eléctrico Nacional (México)",
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "recursos",
+    "title": "¿Qué proporción de la capacidad de CFE Generación VI es limpia?",
+    "caption": "64.7% de capacidad instalada limpia",
+    "values": [
+      {
+        "label": "Limpia",
+        "value": 64.7
+      },
+      {
+        "label": "Otra",
+        "value": 35.3
+      }
+    ],
+    "unit": "%",
+    "source": "CFE, Informe Anual 2024, p. 60 (PDF p. 63)",
+    "note": "CFE Generación VI solamente. El 35.3% es complemento calculado.",
+    "year": "2024",
+    "kind": "Dato CFE + cálculo",
+    "chart": "share",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Generación VI",
+    "document_page": 63,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "recursos",
+    "title": "¿Cuánto pesa la hidráulica en la generación limpia de esa filial?",
+    "caption": "96% de la generación limpia de CFE Generación VI fue hidráulica",
+    "values": [
+      {
+        "label": "Hidráulica",
+        "value": 96
+      },
+      {
+        "label": "Otras limpias",
+        "value": 4
+      }
+    ],
+    "unit": "%",
+    "source": "CFE, Informe Anual 2024, p. 60 (PDF p. 63)",
+    "note": "Participación dentro de energía limpia de CFE Generación VI; 4% es complemento calculado.",
+    "year": "2024",
+    "kind": "Dato CFE + cálculo",
+    "chart": "share",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Generación VI",
+    "document_page": 63,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "recursos",
+    "title": "¿Qué papel tienen las renovables en los contratos legados?",
+    "caption": "7,260 MW renovables de 9,160 MW de contratos legados",
+    "values": [
+      {
+        "label": "Renovable",
+        "value": 7260
+      },
+      {
+        "label": "Convencional",
+        "value": 1900
+      }
+    ],
+    "unit": "MW",
+    "source": "CFE, Informe Anual 2024, p. 72 (PDF p. 75)",
+    "note": "Universo restringido: Contratos de Interconexión Legados, no capacidad nacional. Clasificación según el informe CFE.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "Contratos de Interconexión Legados",
+    "document_page": 75,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "recursos",
+    "title": "¿Cuánta electricidad aportaron grandes hidroeléctricas de CFE VI?",
+    "caption": "Chicoasén: 3,337.8 GWh netos en 2024",
+    "values": [
+      {
+        "label": "Chicoasén",
+        "value": 3337.8
+      },
+      {
+        "label": "Malpaso",
+        "value": 2182.5
+      },
+      {
+        "label": "Temascal",
+        "value": 1359.6
+      }
+    ],
+    "unit": "GWh",
+    "source": "CFE, Informe Anual 2024, p. 60 (PDF p. 63)",
+    "note": "Generación neta por central de CFE Generación VI, no capacidad ni generación nacional.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Generación VI",
+    "document_page": 63,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "generacion",
+    "title": "¿Creció la generación bruta de CFE de 2023 a 2024?",
+    "caption": "154,059 GWh en 2024",
+    "values": [
+      {
+        "label": "2023",
+        "value": 150462
+      },
+      {
+        "label": "2024",
+        "value": 154059
+      }
+    ],
+    "unit": "GWh",
+    "source": "CFE, Informe Anual 2024, p. 24 (PDF p. 27)",
+    "note": "Generación bruta reportada por CFE; no confundir con toda la generación eléctrica mexicana.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE (no total nacional)",
+    "document_page": 27,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "generacion",
+    "title": "¿Cuánta electricidad entregó Laguna Verde?",
+    "caption": "11.98 TWh netos durante 2024",
+    "values": [
+      {
+        "label": "2023",
+        "value": 12.04
+      },
+      {
+        "label": "2024",
+        "value": 11.98
+      }
+    ],
+    "unit": "TWh",
+    "source": "CFE, Informe Anual 2024, p. 63 (PDF p. 66)",
+    "note": "Laguna Verde, generación neta anual. Valores de 2023 y 2024 del informe.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE (no total nacional)",
+    "document_page": 66,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "generacion",
+    "title": "¿Qué capacidad instalada reportó CFE en 2024?",
+    "caption": "45,116.6 MW de capacidad instalada de CFE en 2024",
+    "values": [
+      {
+        "label": "Capacidad CFE",
+        "value": 45116.6
+      }
+    ],
+    "unit": "MW",
+    "source": "CFE, Informe Anual 2024, p. 24 (PDF p. 27)",
+    "note": "Valor mostrado en la gráfica Evolución de la Capacidad Instalada CFE 2019–2024 y mencionado en el programa de mantenimiento. Es capacidad instalada de CFE, no capacidad nacional ni generación anual.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE (no total nacional)",
+    "document_page": 27,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "generacion",
+    "title": "¿Qué capacidad fotovoltaica incorporó Nachi Cocom?",
+    "caption": "7.03 MW incorporados al registro de capacidad de CFE en diciembre de 2024",
+    "values": [
+      {
+        "label": "Incorporación reportada en diciembre de 2024",
+        "value": 7.03
+      }
+    ],
+    "unit": "MW",
+    "source": "CFE, Informe Anual 2024, sección Evolución de Capacidad Instalada (PDF p. 27); revisar también sección Proyectos Fotovoltaicos",
+    "note": "El Informe Anual CFE 2024, sección de evolución de capacidad, señala 7.03 MW a partir del 1 de diciembre de 2024. Otra sección menciona inicio de operaciones comerciales en junio de 2024 y una tabla de proyectos indica 7.5 MW: son referencias con distinto contexto que requieren conciliación antes de usarse indistintamente. No se presenta un cero para 2023 sin respaldo.",
+    "year": "2024",
+    "kind": "Dato oficial · incorporación de capacidad",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Generación VI",
+    "document_page": 27,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "generacion",
+    "title": "¿Qué disponibilidad propia registró Laguna Verde?",
+    "caption": "90.83% en 2024",
+    "values": [
+      {
+        "label": "Disponibilidad propia reportada",
+        "value": 90.83
+      }
+    ],
+    "unit": "%",
+    "source": "CFE, Informe Anual 2024, p. 63 (PDF p. 66)",
+    "note": "Indicador de disponibilidad propia de Laguna Verde, 2024. No se deducen horas de falla, causas de indisponibilidad ni el porcentaje complementario.",
+    "year": "2024",
+    "kind": "Dato operativo CFE",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE (no total nacional)",
+    "document_page": 66,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "transmision",
+    "title": "¿Cuántos kilómetros de líneas opera CFE Transmisión?",
+    "caption": "111,138 km en 2024",
+    "values": [
+      {
+        "label": "2022",
+        "value": 110449
+      },
+      {
+        "label": "2023",
+        "value": 110558
+      },
+      {
+        "label": "2024",
+        "value": 111138
+      }
+    ],
+    "unit": "km",
+    "source": "CFE, Informe Anual 2024, p. 76 (PDF p. 79)",
+    "note": "Escenario tecnológico de CFE Transmisión. Longitud de sus líneas; no implica cobertura de redes de distribución.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Transmisión",
+    "document_page": 79,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "transmision",
+    "title": "¿Cuántas subestaciones registra CFE Transmisión?",
+    "caption": "2,317 subestaciones en 2024",
+    "values": [
+      {
+        "label": "2022",
+        "value": 2279
+      },
+      {
+        "label": "2023",
+        "value": 2302
+      },
+      {
+        "label": "2024",
+        "value": 2317
+      }
+    ],
+    "unit": "subestaciones",
+    "source": "CFE, Informe Anual 2024, p. 76 (PDF p. 79)",
+    "note": "Conteo de subestaciones de CFE Transmisión.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Transmisión",
+    "document_page": 79,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "transmision",
+    "title": "¿Qué capacidad de transformación reporta la red?",
+    "caption": "168,981 MVA en 2024",
+    "values": [
+      {
+        "label": "2022",
+        "value": 165541
+      },
+      {
+        "label": "2023",
+        "value": 164992
+      },
+      {
+        "label": "2024",
+        "value": 168981
+      }
+    ],
+    "unit": "MVA",
+    "source": "CFE, Informe Anual 2024, p. 76 (PDF p. 79)",
+    "note": "Capacidad de transformación de CFE Transmisión; MVA es potencia aparente.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Transmisión",
+    "document_page": 79,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "transmision",
+    "title": "¿Cuánta energía eléctrica se importó?",
+    "caption": "2,167 GWh importados en 2024",
+    "values": [
+      {
+        "label": "2022",
+        "value": 5166
+      },
+      {
+        "label": "2023",
+        "value": 1975
+      },
+      {
+        "label": "2024",
+        "value": 2167
+      }
+    ],
+    "unit": "GWh",
+    "source": "CFE, Informe Anual 2024, p. 90 (PDF p. 93)",
+    "note": "Importación de energía según Balance de Energía de CFE Transmisión. No equivale a producción nacional. Se refiere al balance de energía de CFE Transmisión; no son flujos internos entre regiones, ni capacidad instalada, ni generación nacional.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Transmisión",
+    "document_page": 93,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "transmision",
+    "title": "¿Y cuánta energía se exportó?",
+    "caption": "2,562 GWh exportados en 2024",
+    "values": [
+      {
+        "label": "2022",
+        "value": 2104
+      },
+      {
+        "label": "2023",
+        "value": 2795
+      },
+      {
+        "label": "2024",
+        "value": 2562
+      }
+    ],
+    "unit": "GWh",
+    "source": "CFE, Informe Anual 2024, p. 90 (PDF p. 93)",
+    "note": "Exportación de energía según Balance de Energía de CFE Transmisión. Se refiere al balance de energía de CFE Transmisión; no son flujos internos entre regiones, ni capacidad instalada, ni generación nacional.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Transmisión",
+    "document_page": 93,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "distribucion",
+    "title": "¿A cuántos usuarios atiende CFE Distribución?",
+    "caption": "49.1 millones de usuarios en 2024",
+    "values": [
+      {
+        "label": "Usuarios atendidos",
+        "value": 49.1
+      }
+    ],
+    "unit": "millones",
+    "source": "CFE, Informe Anual 2024, p. 95 (PDF p. 98)",
+    "note": "CFE Distribución, 16 divisiones y 150 zonas; no es una cuenta de viviendas exclusivamente.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Distribución",
+    "document_page": 98,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "distribucion",
+    "title": "¿Cuánta red de distribución existe?",
+    "caption": "901,302 km de redes MT + BT (suma de longitudes CFE 2024)",
+    "values": [
+      {
+        "label": "Media tensión",
+        "value": 555336
+      },
+      {
+        "label": "Baja tensión",
+        "value": 345966
+      }
+    ],
+    "unit": "km",
+    "source": "CFE, Informe Anual 2024, p. 97 (PDF p. 100)",
+    "note": "555,336 km de media tensión más 345,966 km de baja tensión = 901,302 km. Total calculado; el informe lo expresa redondeado como 901 mil km. No se agregan otros activos.",
+    "year": "2024",
+    "kind": "Dato CFE + suma",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Distribución",
+    "document_page": 100,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "distribucion",
+    "title": "¿Qué pérdidas reporta CFE al incluir alta tensión?",
+    "caption": "10.69 % en 2024 (indicador que incluye alta tensión)",
+    "values": [
+      {
+        "label": "2022",
+        "value": 11.05
+      },
+      {
+        "label": "2023",
+        "value": 10.86
+      },
+      {
+        "label": "2024",
+        "value": 10.69
+      }
+    ],
+    "unit": "%",
+    "source": "CFE, Informe Anual 2024, p. 96 (PDF p. 99)",
+    "note": "Indicador específico de CFE «Pérdidas de energía (incluye alta tensión)»: 10.69 % en 2024. No es una tasa exclusiva de las redes de distribución MT+BT; para ese alcance el informe reporta 12.88 % en 2024. Los denominadores y ámbitos son diferentes.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Distribución",
+    "document_page": 99,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "distribucion",
+    "title": "¿Cuántos transformadores de distribución hay?",
+    "caption": "1,660,977 transformadores en 2024",
+    "values": [
+      {
+        "label": "Transformadores",
+        "value": 1660977
+      }
+    ],
+    "unit": "equipos",
+    "source": "CFE, Informe Anual 2024, p. 97 (PDF p. 100)",
+    "note": "Inventario de transformadores de distribución de CFE; no son subestaciones ni transformadores de potencia.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Distribución",
+    "document_page": 100,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  },
+  {
+    "cat": "distribucion",
+    "title": "¿Qué cobertura de electrificación se alcanzó?",
+    "caption": "99.64% de electrificación reportada al cierre de 2024",
+    "values": [
+      {
+        "label": "2023",
+        "value": 99.43
+      },
+      {
+        "label": "2024",
+        "value": 99.64
+      }
+    ],
+    "unit": "%",
+    "source": "CFE, Informe Anual 2024, p. 96 (PDF p. 99)",
+    "note": "Porcentaje nacional de electrificación según CFE Distribución. No mide continuidad, calidad ni consumo.",
+    "year": "2024",
+    "kind": "Dato oficial",
+    "chart": "compare",
+    "document": "fuentes/CFE_Informe_Anual_2024.pdf",
+    "scope": "CFE Distribución",
+    "document_page": 99,
+    "verification": "Cotejo documental textual inicial; no sustituye auditoría integral de todas las series y la cartografía."
+  }
+]

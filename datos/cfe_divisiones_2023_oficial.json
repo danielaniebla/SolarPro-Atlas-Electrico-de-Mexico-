@@ -1,0 +1,183 @@
+{
+  "fuente": "CFE Distribución, PAM RGD 2024–2038, tablas III.1 y V.5",
+  "corte": "2023-12-31",
+  "nota": "Servicios reportados en miles, no personas únicas. Solo MT regional; BT y MT+BT sin desglose divisional verificado.",
+  "divisiones": [
+    {
+      "id": 1,
+      "nombre": "Baja California",
+      "servicios_miles": 2032,
+      "media_tension_km": 21606,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 3.82,
+      "perdidas_no_tecnicas_pct": 3.02,
+      "anio": 2023
+    },
+    {
+      "id": 2,
+      "nombre": "Noroeste",
+      "servicios_miles": 2284,
+      "media_tension_km": 42343,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 4.3,
+      "perdidas_no_tecnicas_pct": 6.19,
+      "anio": 2023
+    },
+    {
+      "id": 3,
+      "nombre": "Norte",
+      "servicios_miles": 2415,
+      "media_tension_km": 41142,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 3.97,
+      "perdidas_no_tecnicas_pct": 12.49,
+      "anio": 2023
+    },
+    {
+      "id": 4,
+      "nombre": "Golfo Norte",
+      "servicios_miles": 3732,
+      "media_tension_km": 47661,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 3.25,
+      "perdidas_no_tecnicas_pct": 12.99,
+      "anio": 2023
+    },
+    {
+      "id": 5,
+      "nombre": "Golfo Centro",
+      "servicios_miles": 2155,
+      "media_tension_km": 31647,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 5.19,
+      "perdidas_no_tecnicas_pct": 4.7,
+      "anio": 2023
+    },
+    {
+      "id": 6,
+      "nombre": "Bajío",
+      "servicios_miles": 4944,
+      "media_tension_km": 69044,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 4.98,
+      "perdidas_no_tecnicas_pct": 6.98,
+      "anio": 2023
+    },
+    {
+      "id": 7,
+      "nombre": "Jalisco",
+      "servicios_miles": 3595,
+      "media_tension_km": 36059,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 4.64,
+      "perdidas_no_tecnicas_pct": 6.76,
+      "anio": 2023
+    },
+    {
+      "id": 8,
+      "nombre": "Centro Occidente",
+      "servicios_miles": 2590,
+      "media_tension_km": 32647,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 5.37,
+      "perdidas_no_tecnicas_pct": 2.94,
+      "anio": 2023
+    },
+    {
+      "id": 9,
+      "nombre": "Centro Sur",
+      "servicios_miles": 3193,
+      "media_tension_km": 39438,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 6.43,
+      "perdidas_no_tecnicas_pct": 4.08,
+      "anio": 2023
+    },
+    {
+      "id": 10,
+      "nombre": "Centro Oriente",
+      "servicios_miles": 3543,
+      "media_tension_km": 28117,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 4.79,
+      "perdidas_no_tecnicas_pct": 6.27,
+      "anio": 2023
+    },
+    {
+      "id": 11,
+      "nombre": "Oriente",
+      "servicios_miles": 3329,
+      "media_tension_km": 45734,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 6.36,
+      "perdidas_no_tecnicas_pct": 13.83,
+      "anio": 2023
+    },
+    {
+      "id": 12,
+      "nombre": "Sureste",
+      "servicios_miles": 4071,
+      "media_tension_km": 66354,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 7.99,
+      "perdidas_no_tecnicas_pct": 7.6,
+      "anio": 2023
+    },
+    {
+      "id": 13,
+      "nombre": "Peninsular",
+      "servicios_miles": 2205,
+      "media_tension_km": 21953,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 3.94,
+      "perdidas_no_tecnicas_pct": 5.02,
+      "anio": 2023
+    },
+    {
+      "id": 14,
+      "nombre": "Valle de México Norte",
+      "servicios_miles": 3106,
+      "media_tension_km": 10540,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 3.84,
+      "perdidas_no_tecnicas_pct": 12.36,
+      "anio": 2023
+    },
+    {
+      "id": 15,
+      "nombre": "Valle de México Centro",
+      "servicios_miles": 2167,
+      "media_tension_km": 5771,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 3.8,
+      "perdidas_no_tecnicas_pct": 11.82,
+      "anio": 2023
+    },
+    {
+      "id": 16,
+      "nombre": "Valle de México Sur",
+      "servicios_miles": 2924,
+      "media_tension_km": 11409,
+      "baja_tension_km": null,
+      "total_mt_bt_km": null,
+      "perdidas_tecnicas_pct": 4.28,
+      "perdidas_no_tecnicas_pct": 9.03,
+      "anio": 2023
+    }
+  ]
+}

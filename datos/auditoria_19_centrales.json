@@ -1,0 +1,135 @@
+[
+  {
+    "nombre": "Infiernillo",
+    "verificacion": "Pendiente de cotejo individual con fila original",
+    "tipo_diferencia": "Sin diferencia",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Capacidades históricas coinciden numéricamente"
+  },
+  {
+    "nombre": "La Villita",
+    "verificacion": "Confirmada en CSV publicado, ID/capacidad/coordenadas",
+    "tipo_diferencia": "Sin diferencia",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Capacidades históricas coinciden numéricamente"
+  },
+  {
+    "nombre": "Petacalco",
+    "verificacion": "Pendiente de cotejo individual con fila original",
+    "tipo_diferencia": "Diferencia menor ≤0.5 MW, compatible con redondeo; no demostrada",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Diferencia histórica de capacidad: revisar alcance/unidades"
+  },
+  {
+    "nombre": "Angostura",
+    "verificacion": "Confirmada en CSV publicado, ID/capacidad/coordenadas",
+    "tipo_diferencia": "Sin diferencia",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Capacidades históricas coinciden numéricamente"
+  },
+  {
+    "nombre": "Chicoasén",
+    "verificacion": "Confirmada en CSV publicado, ID/capacidad/coordenadas",
+    "tipo_diferencia": "Sin diferencia",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Capacidades históricas coinciden numéricamente"
+  },
+  {
+    "nombre": "Malpaso",
+    "verificacion": "Confirmada en CSV publicado, ID/capacidad/coordenadas",
+    "tipo_diferencia": "Sin diferencia",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Capacidades históricas coinciden numéricamente"
+  },
+  {
+    "nombre": "Peñitas",
+    "verificacion": "Pendiente de cotejo individual con fila original",
+    "tipo_diferencia": "Sin diferencia",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Capacidades históricas coinciden numéricamente"
+  },
+  {
+    "nombre": "Temascal",
+    "verificacion": "Pendiente de cotejo individual con fila original",
+    "tipo_diferencia": "Sin diferencia",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Capacidades históricas coinciden numéricamente"
+  },
+  {
+    "nombre": "Caracol",
+    "verificacion": "Pendiente de cotejo individual con fila original",
+    "tipo_diferencia": "Sin diferencia",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Capacidades históricas coinciden numéricamente"
+  },
+  {
+    "nombre": "Humero",
+    "verificacion": "Confirmada en CSV publicado, ID/capacidad/coordenadas",
+    "tipo_diferencia": "Diferencia menor ≤0.5 MW, compatible con redondeo; no demostrada",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Diferencia histórica de capacidad: revisar alcance/unidades"
+  },
+  {
+    "nombre": "Laguna Verde",
+    "verificacion": "Confirmada en CSV publicado, ID/capacidad/coordenadas",
+    "tipo_diferencia": "Diferencia material; alcance/unidades no conciliados",
+    "estado_auditoria": "Provisional: sin segunda referencia geográfica ni conciliación de unidades",
+    "nota": "Diferencia histórica de capacidad: revisar alcance/unidades"
+  },
+  {
+    "nombre": "Tuxpan",
+    "verificacion": "Confirmada en CSV publicado, ID/capacidad/coordenadas",
+    "tipo_diferencia": "Diferencia material; alcance/unidades no conciliados",
+    "estado_auditoria": "Provisional: sin segunda referencia geográfica ni conciliación de unidades",
+    "nota": "Diferencia histórica de capacidad: revisar alcance/unidades"
+  },
+  {
+    "nombre": "Aguamilpa",
+    "verificacion": "Confirmada en CSV publicado, ID/capacidad/coordenadas",
+    "tipo_diferencia": "Sin diferencia",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Capacidades históricas coinciden numéricamente"
+  },
+  {
+    "nombre": "El Cajón",
+    "verificacion": "Confirmada en CSV publicado, ID/capacidad/coordenadas",
+    "tipo_diferencia": "Sin diferencia",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Capacidades históricas coinciden numéricamente"
+  },
+  {
+    "nombre": "Los Azufres",
+    "verificacion": "Confirmada en CSV publicado, ID/capacidad/coordenadas",
+    "tipo_diferencia": "Diferencia material; alcance/unidades no conciliados",
+    "estado_auditoria": "Provisional: sin segunda referencia geográfica ni conciliación de unidades",
+    "nota": "Diferencia histórica de capacidad: revisar alcance/unidades"
+  },
+  {
+    "nombre": "El Novillo",
+    "verificacion": "Pendiente de cotejo individual con fila original",
+    "tipo_diferencia": "Sin diferencia",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Capacidades históricas coinciden numéricamente"
+  },
+  {
+    "nombre": "Cerro Prieto I–IV",
+    "verificacion": "Confirmada en CSV publicado, ID/capacidad/coordenadas",
+    "tipo_diferencia": "Diferencia material; alcance/unidades no conciliados",
+    "estado_auditoria": "Provisional: sin segunda referencia geográfica ni conciliación de unidades",
+    "nota": "Diferencia histórica de capacidad: revisar alcance/unidades"
+  },
+  {
+    "nombre": "Valladolid III",
+    "verificacion": "Pendiente de cotejo individual con fila original",
+    "tipo_diferencia": "Sin diferencia",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Capacidades históricas coinciden numéricamente"
+  },
+  {
+    "nombre": "Punta Prieta",
+    "verificacion": "Confirmada en CSV publicado, ID/capacidad/coordenadas",
+    "tipo_diferencia": "Diferencia menor ≤0.5 MW, compatible con redondeo; no demostrada",
+    "estado_auditoria": "Provisional: falta verificación geográfica independiente",
+    "nota": "Diferencia histórica de capacidad: revisar alcance/unidades"
+  }
+]

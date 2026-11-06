@@ -1,0 +1,31 @@
+{
+  "descripcion": "CFE Transmisión, indicadores al cierre del año, informes anuales proporcionados por el usuario",
+  "fuentes": {
+    "2022": "Informe Anual 2022, CFE Transmisión, Escenario Tecnológico 2022, p. 124",
+    "2023": "Informe Anual 2023, CFE Transmisión, Escenario Tecnológico 2023, p. 116",
+    "2024": "Informe Anual 2024, CFE Transmisión, Escenario Tecnológico 2024, p. 76"
+  },
+  "registros": [
+    {
+      "anio": 2022,
+      "longitud_km": 110449,
+      "subestaciones": 2279,
+      "capacidad_transformacion_mva": 165541
+    },
+    {
+      "anio": 2023,
+      "longitud_km": 110559,
+      "subestaciones": 2302,
+      "capacidad_transformacion_mva": 164992
+    },
+    {
+      "anio": 2024,
+      "longitud_km": 111138,
+      "subestaciones": 2317,
+      "capacidad_transformacion_mva": 168981
+    }
+  ],
+  "discrepancias": [
+    "Informe 2023: 110559 km en 2023; columna comparativa del informe 2024: 110558 km en 2023."
+  ]
+}

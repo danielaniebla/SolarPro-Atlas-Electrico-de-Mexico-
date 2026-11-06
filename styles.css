@@ -1,0 +1,400 @@
+:root{--bg:#071321;--panel:#0B2138;--surface:#0C2034;--white:#F4F9FF;--lime:#B8F22B;--blue:#39B5FF;--gold:#FFBE45;--muted:#A2B6C7;--line:#234159}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:'DM Sans',Arial,sans-serif}button,select{font:inherit}button{cursor:pointer}a{color:var(--blue)}.sidebar{position:fixed;inset:0 auto 0 0;width:248px;background:#081a2c;border-right:1px solid var(--line);padding:18px 14px;display:flex;flex-direction:column;z-index:10}.brand-icon{display:block;margin:4px auto 12px;width:108px}.brand-icon img{width:100%;border-radius:16px}.eyebrow{font:800 11px Manrope,sans-serif;color:var(--lime);letter-spacing:1.4px}.center{text-align:center}.sidebar nav{margin-top:30px;display:grid;gap:9px}.nav{background:none;color:var(--muted);border:0;border-radius:12px;padding:13px 10px;text-align:left;display:flex;gap:12px;align-items:center;font-weight:600;font-size:14px}.nav:hover,.nav.active{background:var(--lime);color:var(--bg)}.sidebar-bottom{margin-top:auto;color:var(--muted);font-size:12px;padding:15px;border-top:1px solid var(--line)}.main{margin-left:248px;padding:0 32px}.topbar{height:90px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.topbar p{margin:7px 0;color:var(--muted);font-size:13px}.toplinks{display:flex;align-items:center;gap:20px}.toplinks a{text-decoration:none;font-size:13px}.pill{border:1px solid #467249;border-radius:30px;color:var(--lime);padding:7px 12px;font-size:12px}.view{display:none;padding:30px 0 50px}.view.shown{display:block}.hero{display:grid;grid-template-columns:1.5fr 1fr;gap:24px;align-items:center;background:linear-gradient(120deg,#0B2138,#071321);border:1px solid var(--line);border-radius:24px;padding:32px;min-height:340px;overflow:hidden}.full-logo{display:block;width:240px;max-width:100%;margin:-12px 0 10px;border-radius:10px}.hero h1,.section-heading h1{font:800 clamp(27px,3vw,43px)/1.2 Manrope,sans-serif;margin:12px 0}.hero p,.section-heading p{color:var(--muted);line-height:1.7;max-width:660px}.primary{background:var(--lime);color:#071321;border:0;border-radius:10px;padding:12px 18px;font-weight:800}.primary:hover{filter:brightness(1.1)}.primary:disabled{opacity:.45;cursor:not-allowed}.secondary{background:#16344d;color:var(--white);border:1px solid var(--blue);padding:12px 16px;border-radius:10px}.hero-art{display:flex;align-items:center;justify-content:center}.energy-circle{height:230px;width:230px;border:2px solid var(--blue);box-shadow:0 0 50px #39b5ff22;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--gold);font-size:30px;gap:5px}.energy-circle span{font-size:10px;color:var(--muted);letter-spacing:2px}.energy-circle b{color:var(--lime)}.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:18px 0}.panel{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:22px}.stats .panel{display:flex;flex-direction:column;gap:10px}.stats small{color:var(--muted)}.stats strong{font:800 clamp(20px,2vw,30px) Manrope,sans-serif}.stats em{color:var(--lime);font-size:14px;font-style:normal}.stats span{font-size:11px;color:var(--muted);line-height:1.5}.map-placeholder{display:flex;justify-content:space-between;align-items:center;gap:30px}.map-placeholder p{color:var(--muted);max-width:620px;line-height:1.7}.map-graphic{font:800 80px Manrope;color:#143a53;white-space:nowrap}.map-graphic span{color:var(--lime)}.section-heading{margin-bottom:22px}.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}.tab{background:#102c43;color:var(--muted);border:1px solid var(--line);border-radius:9px;padding:11px 14px}.tab.selected{background:var(--lime);color:var(--bg);font-weight:800}.tabview{display:none}.tabview.active{display:block}.three-col{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0}.panel h2{font:800 23px Manrope}.panel h3{font:800 17px Manrope}.panel p{line-height:1.65;color:var(--muted)}.emoji{font-size:35px}.tag{display:inline-block;background:#1b3d46;color:var(--lime);border-radius:20px;padding:6px 10px;font-size:11px}.concept-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.concept-grid>div{background:var(--surface);padding:15px;border-radius:10px}.concept-grid p{font-size:12px}.note{background:#123040;border-left:3px solid var(--blue);padding:12px 16px;border-radius:4px;font-size:13px}.quiz-header{display:flex;justify-content:space-between;color:var(--lime);font-size:13px;margin:22px 0}.class-card{background:linear-gradient(125deg,#133954,#0c2438);border:1px solid #2c6b8a;padding:30px;border-radius:16px;text-align:center}.class-card h2{font-size:clamp(24px,3vw,35px)}.choice-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}.choice,.question-option{border:1px solid #37627d;border-radius:10px;background:#102f47;color:var(--white);padding:13px 10px}.choice:hover,.question-option:hover{border-color:var(--lime)}.choice:disabled,.question-option:disabled{cursor:default;opacity:.7}.feedback{min-height:50px;margin:15px 0;line-height:1.6}.feedback.good{color:var(--lime)}.feedback.bad{color:#ffba8d}.text-button{background:none;border:0;color:var(--blue);padding:12px}.flow-steps{display:flex;flex-wrap:wrap;align-items:stretch;gap:10px;margin:25px 0}.flow-step{flex:1;min-width:125px;background:#102f47;border:1px solid #37627d;border-radius:10px;color:var(--white);padding:20px 12px}.flow-step:not(:last-child):after{content:' →';color:var(--lime)}.flow-step.active{border-color:var(--lime);background:#1d4142}.detail{padding:18px;background:var(--surface);border-radius:12px;min-height:70px}select{background:#102f47;color:var(--white);padding:12px;border-radius:9px;border:1px solid var(--line);display:block;margin:12px 0;max-width:100%;width:340px}.check-grid{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}.check-grid label{background:var(--surface);border:1px solid var(--line);padding:10px 14px;border-radius:9px}.compare-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.compare-grid article{background:var(--surface);border-radius:12px;padding:18px}.compare-grid p{font-size:13px}.inset{background:var(--surface)}.indicator-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}.indicator-grid>div{padding:18px;border-radius:12px;background:var(--surface)}.indicator-grid b{display:block;margin-bottom:8px}.indicator-grid span{font-size:13px;color:var(--muted)}.question-options{display:grid;gap:10px;margin:22px 0}.question-option{text-align:left}.coming{min-height:260px}footer{border-top:1px solid var(--line);padding:25px 0 45px;color:var(--muted);font-size:12px;line-height:1.7}footer b{color:var(--white)}.mobile-menu{display:none}@media(max-width:1100px){.main{padding:0 20px}.concept-grid{grid-template-columns:repeat(3,1fr)}.choice-row{grid-template-columns:repeat(2,1fr)}}@media(max-width:760px){.mobile-menu{display:block;position:fixed;right:14px;top:14px;z-index:20;background:var(--lime);border:0;border-radius:8px;padding:8px 13px}.sidebar{transform:translateX(-100%);transition:transform .2s}.sidebar.open{transform:translateX(0)}.main{margin-left:0;padding:0 14px}.topbar{padding-right:45px}.toplinks{display:none}.hero{grid-template-columns:1fr;padding:22px}.hero-art{display:none}.stats,.three-col{grid-template-columns:1fr}.concept-grid{grid-template-columns:repeat(2,1fr)}.choice-row{grid-template-columns:1fr 1fr}.map-graphic{display:none}.tabs{overflow-x:auto}.panel{padding:18px}}
+
+/* Revisión de módulo 0: accesibilidad y gráficos respaldados */
+[hidden]{display:none!important}button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:3px}progress{display:block;width:100%;height:9px;margin:0 0 18px;accent-color:var(--lime)}.bar-chart{display:grid;gap:20px;padding:22px;background:var(--surface);border-radius:14px;margin:15px 0}.bar-line{display:grid;grid-template-columns:100px minmax(80px,1fr) 70px;align-items:center;gap:12px;font-size:14px}.bar-line strong{text-align:right;font-variant-numeric:tabular-nums}.bar-track{height:25px;border-radius:7px;background:#1c3b50;overflow:hidden}.bar-fill{height:100%;border-radius:7px}.bar-fill.fossil{background:var(--gold)}.bar-fill.clean{background:var(--lime)}.source-line{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}.data-unavailable{background:#152e40;border:1px dashed var(--blue);border-radius:14px;padding:22px;margin:16px 0}.data-unavailable h3{color:var(--gold)}@media(max-width:540px){.bar-line{grid-template-columns:65px minmax(50px,1fr) 65px;gap:7px;font-size:12px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.sidebar{transition:none}}
+
+/* Etapa 4.2: comparación documentada y accesible */
+.international-panel{margin:22px 0;border:1px solid #315779}
+.filter-row{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin:20px 0}
+.comparison-head{font-family:Manrope,sans-serif;font-size:1.15rem;font-weight:800;color:#f4f9ff;margin:14px 0}
+.comparison-rows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 22px}
+.global-bar-caption{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:.88rem;margin-bottom:7px;color:#f4f9ff}
+.global-bar-caption strong{white-space:nowrap;color:#b8f22b}
+.global-track{height:15px;border-radius:20px;background:#071321;overflow:hidden;border:1px solid #35536b}
+.global-fill{height:100%;border-radius:20px;transition:width .25s ease}
+.global-fill.fossil{background:linear-gradient(90deg,#c17b2c,#ffbe45)}
+.global-fill.clean{background:linear-gradient(90deg,#39b5ff,#b8f22b)}
+.comparison-sources{display:flex;flex-direction:column;gap:8px;margin:14px 0}
+.comparison-sources a{color:#74d9ff;text-decoration:underline;text-underline-offset:3px;font-size:.83rem}
+@media(max-width:750px){.comparison-rows{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.global-fill{transition:none}}
+
+/* Comparador ambiental IPCC */
+.emissions-panel{margin-top:24px;padding:20px;border:1px solid #24465b;border-radius:16px;background:#0b2138}
+.emissions-chart{display:grid;gap:12px;margin:18px 0}
+.emission-row{display:grid;grid-template-columns:minmax(125px,220px) 1fr 64px;align-items:center;gap:12px;font-size:0.91rem}
+.emission-row strong{text-align:right;font-variant-numeric:tabular-nums}
+.emission-track{height:14px;border-radius:100px;background:#18334a;overflow:hidden}
+.emission-fill{height:100%;border-radius:100px;background:#39b5ff}
+.emission-fill.fossil{background:#ffbe45}.emission-fill.nuclear{background:#b8f22b}
+@media(max-width:620px){.emission-row{grid-template-columns:110px 1fr 48px;gap:7px;font-size:.76rem}.emissions-panel{padding:12px}}
+
+/* Revisión 4.4: series oficiales y contraste legible */
+.technology-panel{margin-top:1.2rem;padding:1.25rem;border:1px solid #31546a;border-radius:16px;background:#0b2138}
+.technology-panel .bar-line{margin:.7rem 0;display:grid;grid-template-columns:minmax(115px,1fr) minmax(100px,2fr) minmax(105px,auto);align-items:center;gap:12px}
+.technology-panel .bar-line strong{font-variant-numeric:tabular-nums;text-align:right;font-size:.85rem}
+.technology-panel a{color:#b8f22b}
+@media(max-width:680px){.technology-panel .bar-line{grid-template-columns:1fr auto}.technology-panel .bar-track{grid-column:1/-1;grid-row:2}}
+
+/* Etapa 5: inventario de centrales, vista accesible y responsiva */
+.gen-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:24px 0}.gen-kpis article{padding:19px;background:#0b2138;border:1px solid #284459;border-radius:15px;display:grid;gap:6px}.gen-kpis strong{font:800 1.5rem Manrope;color:#b8f22b}.gen-kpis span{color:#a2b6c7;font-size:.8rem}.gen-filters{display:flex;flex-wrap:wrap;gap:15px;margin:20px 0}.gen-filters label{display:grid;gap:7px;flex:1;min-width:165px}.gen-filters input,.gen-filters select{background:#071321;color:#f4f9ff;border:1px solid #31546a;border-radius:9px;padding:11px;max-width:100%}.gen-note{font-size:.9rem;color:#a2b6c7}.gen-table-wrap{overflow-x:auto;border:1px solid #284459;border-radius:14px}.gen-table{border-collapse:collapse;width:100%;min-width:750px}.gen-table th,.gen-table td{padding:13px 12px;border-bottom:1px solid #284459;text-align:left;font-size:.86rem}.gen-table th{background:#102b40;color:#b8f22b}.gen-table tbody tr:hover{background:#15364a}.gen-table td:last-child{text-align:right;font-variant-numeric:tabular-nums}.gen-map-pending{margin:24px 0;padding:20px;border:1px dashed #39b5ff;border-radius:15px;background:#0b2138}.gen-map-pending a{color:#b8f22b}.gen-map-pending h2{font-size:1.1rem}@media(max-width:620px){.gen-kpis{grid-template-columns:1fr}.gen-kpis article{padding:12px}}
+
+/* Etapa 5.2: mapa base y capa de revisión geoespacial */
+.gen-map{height:430px;width:100%;border-radius:13px;border:1px solid #31546a;background:#102b40;margin:15px 0;z-index:0}.gen-map .leaflet-container{font-family:DM Sans,sans-serif}.geo-import{margin:17px 0;padding:15px;border:1px solid #31546a;border-radius:12px}.geo-import summary{cursor:pointer;color:#b8f22b;font-weight:700}.geo-import label{display:grid;gap:7px;margin:12px 0}.geo-import input{width:100%;max-width:100%;background:#071321;color:#f4f9ff;padding:10px;border:1px solid #31546a;border-radius:9px}.geo-import button{margin-top:8px}.gen-map-pending p{line-height:1.5}@media(max-width:620px){.gen-map{height:340px}}
+
+/* Etapa 5.3: herramientas de consulta cartográfica */
+.official-map-tools{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:16px}.official-map-tools #officialCount{color:#a2b6c7;font-size:.85rem;flex-basis:100%}.official-map-tools button:disabled{opacity:.55;cursor:wait}.leaflet-popup-content{color:#071321}.leaflet-popup-content small{display:block;margin-top:8px}
+
+/* Etapa 5.5: mapa vectorial local, sin proveedores externos */
+.gen-map{background:#082239;overflow:hidden;touch-action:none;position:relative}.gen-map svg{cursor:grab}.gen-map svg:active{cursor:grabbing}.map-controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0}.map-controls button{font-size:.82rem;padding:9px 12px}.map-controls span{color:#a2b6c7;font-size:.8rem}.map-info{border:1px solid #31546a;border-radius:10px;background:#071321;padding:13px 15px;color:#f4f9ff;min-height:52px}.map-info strong{color:#b8f22b}.map-info p{margin:6px 0}.map-info small{color:#a2b6c7}.gen-map circle[data-marker]{cursor:pointer}.gen-map circle[data-marker]:focus{outline:none;stroke:#ffbe45;stroke-width:5}
+
+/* Etapa 5.6 */
+.gen-table tr.selected-plant{background:rgba(184,242,43,.13)}.plant-open{padding:6px 10px;white-space:nowrap;font-size:.82rem}.map-info h3{margin:0 0 8px;color:#B8F22B}.map-info p{margin:5px 0;line-height:1.5}.map-info a{color:#39B5FF}.gen-map circle[data-marker]:focus{outline:none;stroke:#fff;stroke-width:4}
+
+/* SolarPro 5.7: análisis sincronizado y auditoría */
+.gen-dual-charts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0}
+.gen-chart-card{background:#0c2034;border:1px solid rgba(162,182,199,.22);border-radius:16px;padding:18px;min-width:0}
+.gen-chart-card h2{font-size:1.05rem;margin:0 0 8px}
+.gen-chart-card p{font-size:.82rem;color:#a2b6c7}
+.gen-chart-card select{background:#071321;color:#f4f9ff;padding:6px;border-radius:8px;border:1px solid #496070}
+.national-bar{margin:11px 0}
+.national-bar-label{display:flex;justify-content:space-between;gap:8px;font-size:.77rem;flex-wrap:wrap}
+.national-bar-label strong{color:#f4f9ff;font-variant-numeric:tabular-nums}
+.national-bar-track{background:#071321;border-radius:20px;height:9px;margin-top:6px;overflow:hidden}
+.national-bar-fill{height:100%;background:linear-gradient(90deg,#39b5ff,#b8f22b);border-radius:20px}
+.national-bar-fill.filtered{background:linear-gradient(90deg,#39b5ff,#66d9dd)}
+@media(max-width:860px){.gen-dual-charts{grid-template-columns:1fr}}
+
+.trans-stepper{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}.trans-step{flex:1 1 175px;background:#0c2034;border:1px solid #27506a;border-radius:15px;padding:17px;display:flex;flex-direction:column;gap:9px}.trans-step span,.trans-formula strong{color:#b8f22b}.trans-step small,.trans-card p{color:#a2b6c7;line-height:1.6}.trans-arrow{align-self:center;color:#b8f22b;font-size:22px}.trans-grid,.trans-two-col{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:18px 0}.trans-card{background:#0c2034;border:1px solid #335065;border-radius:16px;padding:22px;min-width:0}.trans-card h2{font-size:1.18rem;margin:10px 0}.trans-chip-row{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.trans-chip-row span{background:#0b2138;border:1px solid #39b5ff;border-radius:30px;padding:8px 12px;font-size:.8rem}.trans-pending{border-left:3px solid #ffbe45;background:#071321;padding:14px;margin-top:20px}.trans-pending strong{color:#ffbe45}.trans-formula{background:#071321;padding:14px;border-radius:10px;margin:12px 0;overflow-x:auto}.trans-formula span{display:block;font-size:.76rem;color:#a2b6c7;margin-bottom:8px}.trans-formula strong{white-space:nowrap}.trans-answers{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}.trans-answers button{border:1px solid #39b5ff;background:#0b2138;color:#f4f9ff;padding:12px 16px;border-radius:10px;cursor:pointer}.trans-answers button[aria-pressed=true]{border-color:#b8f22b;background:#24442d}@media(max-width:850px){.trans-grid,.trans-two-col{grid-template-columns:1fr}.trans-arrow{display:none}}
+
+/* Etapa 6.2 · sistemas eléctricos: diagrama conceptual, NO cartografía georreferenciada */
+.system-diagram{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0}
+.system-node{display:flex;flex-direction:column;align-items:flex-start;gap:7px;text-align:left;background:#071321;color:#f4f9ff;border:1px solid #35607b;border-radius:12px;padding:15px;cursor:pointer;min-height:132px}
+.system-node:hover,.system-node:focus-visible{border-color:#b8f22b}.system-node.selected{border:2px solid #b8f22b;background:#17343c}
+.system-node strong{font-size:1rem}.system-node small{color:#a2b6c7;line-height:1.4}.system-symbol{font-size:1.5rem;color:#39b5ff}.system-node.selected .system-symbol{color:#b8f22b}
+.system-detail{border:1px solid #35607b;background:#071321;padding:17px;border-radius:12px;min-height:150px}.system-detail h3{color:#b8f22b;margin:0 0 10px}
+.trans-legend{font-size:.8rem}.trans-source-links{display:flex;flex-direction:column;gap:10px;margin:15px 0}.trans-source-links a{color:#39b5ff;overflow-wrap:anywhere}
+@media(max-width:600px){.system-diagram{grid-template-columns:1fr}}
+
+/* SolarPro 6.3: simulador trifásico */
+.trans-simulator{margin:22px 0}.sim-layout{display:grid;grid-template-columns:minmax(230px,1fr) minmax(240px,1fr);gap:25px;margin:20px 0}.sim-inputs{display:grid;gap:9px}.sim-inputs label{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;color:#f4f9ff;font-size:.88rem}.sim-inputs output{color:#b8f22b;font-weight:800}.sim-inputs input[type=range]{width:100%;accent-color:#b8f22b;margin-bottom:12px}.sim-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.sim-metric{background:#071321;border:1px solid #234159;border-radius:12px;padding:15px;display:flex;flex-direction:column;gap:6px}.sim-metric span{font-size:.75rem;color:#a2b6c7}.sim-metric strong{font-size:1.3rem;color:#f4f9ff;font-variant-numeric:tabular-nums}.sim-metric small{color:#39b5ff}.sim-comparison{background:#071321;border-radius:12px;padding:18px;margin-top:18px}.sim-comparison h3{margin:0}.sim-bar-row{margin:12px 0}.sim-bar-caption{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:.82rem}.sim-bar-track{background:#0b2138;height:12px;border-radius:12px;overflow:hidden;margin-top:5px}.sim-bar-fill{background:linear-gradient(90deg,#39b5ff,#b8f22b);height:100%;border-radius:12px}.sim-caveat{font-size:.83rem;border-left:3px solid #ffbe45;padding-left:14px}@media(max-width:850px){.sim-layout{grid-template-columns:1fr}}
+
+/* SolarPro 6.4 — infraestructura histórica oficial */
+.trans-stats{margin-top:20px}.trans-stat-controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:20px 0}.trans-stat-controls select{background:#071321;color:#f4f9ff;border:1px solid #39b5ff;border-radius:9px;padding:9px 12px}.trans-stat-bars{display:grid;gap:15px;margin:18px 0}.trans-stat-row{display:grid;grid-template-columns:50px minmax(0,1fr) 135px;align-items:center;gap:12px}.trans-stat-row span,.trans-stat-row strong{font-size:.85rem}.trans-stat-track{height:17px;background:#071321;border-radius:20px;overflow:hidden}.trans-stat-fill{height:100%;border-radius:20px;background:linear-gradient(90deg,#39b5ff,#b8f22b)}.trans-stat-summary{padding:13px 16px;background:#071321;border-left:3px solid #b8f22b;border-radius:0 10px 10px 0;margin:18px 0;color:#f4f9ff}.trans-stats .gen-table-wrap{overflow-x:auto}@media(max-width:560px){.trans-stat-row{grid-template-columns:38px minmax(0,1fr);gap:7px}.trans-stat-row strong{grid-column:2}}
+
+/* 6.5: trazabilidad y cierre */
+.trans-audit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:16px 0}.trans-audit-grid>div{background:#071321;border:1px solid #27506a;border-radius:12px;padding:14px}.trans-audit-grid strong{color:#b8f22b}.trans-audit-grid p{font-size:.83rem}.trans-audit-note{border-left:3px solid #ffbe45;padding:12px;background:#071321;border-radius:0 10px 10px 0}@media(max-width:850px){.trans-audit-grid{grid-template-columns:1fr}}
+
+/* SolarPro 6.6 · cartografía geográfica con fuentes externas */
+.trans-geo{margin:25px 0;padding:22px;background:#0c2034;border:1px solid #27506a;border-radius:16px}
+.trans-geo h2{color:#f4f9ff;margin:10px 0}.trans-geo p{color:#a2b6c7;line-height:1.6}
+.trans-geo-actions,.trans-geo-tools{display:flex;flex-wrap:wrap;gap:10px;margin:15px 0;align-items:center}
+.trans-geo-upload{border:1px solid #39b5ff;border-radius:9px;padding:10px;color:#f4f9ff;font-size:.85rem}
+.trans-geo-upload input{display:block;margin-top:8px;max-width:100%;font-size:.8rem}
+.trans-geo-map{width:100%;aspect-ratio:1100/690;min-height:230px;background:#082239;border:1px solid #27506a;border-radius:12px;overflow:hidden;touch-action:none;cursor:grab}
+.trans-geo-map svg{width:100%;height:100%;display:block}
+#transGeoStatus{color:#b8f22b;min-height:22px;font-size:.86rem;margin:12px 0}
+
+.trans-system-dashboard,.trans-official-indicators{background:#071321;border:1px solid #27506a;border-radius:14px;padding:18px;margin:18px 0}.trans-system-dashboard h3,.trans-official-indicators h3{color:#f4f9ff;margin:0 0 10px}.trans-system-buttons{display:flex;gap:8px;flex-wrap:wrap;margin:15px 0}.trans-system-buttons button{background:#0b2138;color:#f4f9ff;border:1px solid #39b5ff;padding:10px 14px;border-radius:9px;cursor:pointer}.trans-system-buttons button[aria-pressed="true"]{background:#284629;border-color:#b8f22b}.trans-system-detail{padding:14px;border-left:3px solid #b8f22b;background:#0c2034;border-radius:0 10px 10px 0}.trans-system-detail h4{color:#b8f22b;margin:0}.trans-system-detail p{margin:8px 0}.trans-indicator-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.trans-indicator-grid>div{display:flex;flex-direction:column;background:#0c2034;border:1px solid #27506a;border-radius:10px;padding:14px;gap:7px}.trans-indicator-grid span{font-size:.77rem;color:#a2b6c7}.trans-indicator-grid strong{font-size:1.2rem;color:#b8f22b}@media(max-width:650px){.trans-indicator-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* 6.8: los rótulos SVG son objetivos táctiles visibles */
+#transGeoMap [data-sys-marker]:hover rect,#transGeoMap [data-sys-marker]:focus rect{fill:#225b62;stroke:#b8f22b;stroke-width:3}
+#transGeoMap [data-sys-marker]{outline:none;touch-action:manipulation}
+
+/* 6.9: selección geográfica fiable mediante botones HTML, no eventos SVG */
+.trans-map-stage{position:relative;width:100%;margin-top:16px}
+.trans-map-stage .trans-geo-map{margin:0}
+.trans-map-overlay{position:absolute;inset:0;pointer-events:none}
+.trans-map-hotspot{position:absolute;pointer-events:auto;transform:translate(-50%,-50%);max-width:24%;padding:10px 12px;border-radius:12px;background:rgba(7,19,33,.94);border:2px solid #b8f22b;color:#f4f9ff;font-weight:700;font-size:clamp(10px,1.1vw,14px);line-height:1.25;cursor:pointer;box-shadow:0 4px 15px rgba(0,0,0,.35);z-index:2}
+.trans-map-hotspot:hover,.trans-map-hotspot:focus-visible{background:#225b62;outline:3px solid #39b5ff;outline-offset:2px}
+.trans-map-hotspot[aria-pressed="true"]{background:#254a32;border-color:#b8f22b;box-shadow:0 0 0 3px rgba(184,242,43,.24)}
+.trans-map-bc{left:15%;top:22%}.trans-map-mul{left:22%;top:43%}.trans-map-bcs{left:30%;top:66%}.trans-map-sin{left:70%;top:51%}
+.trans-system-detail{margin-top:14px;scroll-margin-top:20px}
+@media(max-width:650px){.trans-map-hotspot{padding:5px 6px;font-size:9px;border-radius:7px;max-width:29%}.trans-map-bc{left:16%;top:19%}.trans-map-mul{left:23%;top:40%}.trans-map-bcs{left:31%;top:64%}.trans-map-sin{left:72%;top:50%}}
+
+/* 7.0: SVG anchors share map viewBox; no CSS percentage positions */
+.trans-map-stage{position:relative}.trans-map-stage>.trans-geo-map{width:100%}
+.trans-topology{margin:18px 0;padding:18px;border-radius:14px;border:1px solid #27506a;background:#081b2b}
+.trans-topology h4{margin:0 0 8px;color:#f4f9ff}.trans-topology p{color:#a2b6c7;font-size:.86rem}
+.trans-topology svg{width:100%;height:auto;display:block}
+.trans-topology svg g rect{fill:#0b2138;stroke:#39b5ff;stroke-width:1.5}
+.trans-topology svg g.selected rect{fill:#24452f;stroke:#b8f22b;stroke-width:3}
+.trans-topology svg g text{font-size:13px;fill:#f4f9ff;font-weight:600}
+.trans-topology svg .topology-link{stroke:#b8f22b;stroke-width:4;stroke-dasharray:9 5}
+.trans-topology svg .topology-caption{fill:#a2b6c7;font-size:13px}
+
+/* 7.1: enlaces dibujados dentro del SVG geográfico; escalan con su viewBox. */
+#transGeoMap #transMapNetwork{pointer-events:none}
+#transGeoMap [data-map-link]{transition:opacity .18s,stroke .18s}
+#transGeoMap svg{display:block;width:100%;height:100%}
+
+/* 7.2 · tablero de sistemas eléctricos 2024 */
+.trans-v72{background:#0b192c;border:1px solid #3a5e72;border-radius:18px;padding:20px;margin:22px 0;color:#f4f9ff}
+.trans-v72 h3{color:#f4f9ff;margin:0 0 8px}.trans-v72-top p{color:#a2b6c7;margin:0 0 16px}
+.trans-v72-filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:15px}
+.trans-v72-filters button{background:#102b43;color:#f4f9ff;border:1px solid #42657a;border-radius:10px;padding:9px 12px;cursor:pointer;font-size:.79rem}
+.trans-v72-filters button[aria-pressed=true]{background:#24513d;color:#b8f22b;border-color:#b8f22b}
+.trans-v72-layout{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(255px,1fr);gap:14px}
+.trans-v72-mapcol{min-width:0}.trans-v72-mapcol .trans-geo-map{margin:0;min-height:360px;height:auto;aspect-ratio:1100/690;overflow:hidden;border:1px solid #41677b;border-radius:13px}
+.trans-v72-mapcol .trans-geo-map svg{width:100%;height:100%;display:block}
+.trans-v72-panel{background:#0f172a;border:1px solid #42657a;border-radius:13px;padding:17px;min-width:0;max-height:590px;overflow:auto}
+.trans-v72-panel h4{color:#b8f22b;margin:14px 0}.trans-v72-panel p{font-size:.85rem;line-height:1.6;color:#d0dce5;margin:9px 0}
+.trans-v72-panel strong{color:#fff}.trans-v72-legend{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.trans-v72-legend label{background:#102b43;border:1px solid #385d70;border-radius:9px;padding:7px 9px;font-size:.77rem;cursor:pointer;color:#f4f9ff}
+.trans-v72-legend input{accent-color:#b8f22b;margin-right:5px}
+@media(max-width:950px){.trans-v72-layout{grid-template-columns:1fr}.trans-v72-panel{max-height:none}}
+
+/* 7.3: un solo conjunto de controles de zoom, flotante dentro del mapa */
+.trans-map-canvas{position:relative;min-width:0}
+.trans-map-canvas>.trans-geo-tools{position:absolute;right:12px;top:12px;z-index:10;display:flex;flex-direction:column;gap:6px;margin:0;padding:7px;border:1px solid #42657a;border-radius:12px;background:rgba(7,19,33,.92);box-shadow:0 5px 18px #0008}
+.trans-map-canvas>.trans-geo-tools button{width:38px;height:38px;padding:0;font-size:1.3rem;font-weight:800;line-height:1;color:#f4f9ff;background:#123249;border:1px solid #42657a;border-radius:8px}
+.trans-map-canvas>.trans-geo-tools button:hover,.trans-map-canvas>.trans-geo-tools button:focus-visible{background:#23543c;border-color:#b8f22b;color:#b8f22b}
+.trans-system-dashboard[hidden]{display:none!important}
+@media(max-width:550px){.trans-map-canvas>.trans-geo-tools{top:7px;right:7px;padding:4px}.trans-map-canvas>.trans-geo-tools button{width:32px;height:32px}}
+
+/* Etapa 7 · Fase 1: distribución 2024 */
+.dist-module{background:#0b192c}
+.dist-module h2{font-size:1.22rem;margin:8px 0 12px}
+.dist-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:20px 0}
+.dist-kpis article{background:#0c2034;border:1px solid #31546a;border-radius:14px;padding:18px;display:grid;gap:8px}
+.dist-kpis strong{font:800 1.65rem Manrope,sans-serif;color:#b8f22b}
+.dist-kpis span{color:#a2b6c7;font-size:.83rem}
+.dist-source{font-size:.82rem;color:#a2b6c7;margin:0 0 22px}
+.dist-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(270px,1fr);gap:16px}
+.dist-map-card,.dist-detail,.dist-process,.dist-sources{background:#0c2034;border:1px solid #31546a;border-radius:16px;padding:20px;min-width:0}
+.dist-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.dist-tag{font-size:.73rem;color:#b8f22b;border:1px solid #496070;padding:7px 10px;border-radius:999px}
+.dist-map-card>p,.dist-process>p,.dist-sources p{color:#a2b6c7;font-size:.9rem;line-height:1.55}
+.dist-geo{border-radius:12px;overflow:hidden;background:#0b192c;border:1px solid #31546a}
+.dist-geo svg{display:block;width:100%;height:auto}
+.dist-map-note{display:flex;gap:8px;flex-wrap:wrap;justify-content:space-between;margin-top:12px;font-size:.82rem}
+.dist-map-note strong{color:#b8f22b}.dist-map-note span{color:#a2b6c7}
+.dist-detail h3{color:#b8f22b;margin:10px 0}
+.dist-detail p{line-height:1.55;font-size:.9rem;color:#f4f9ff}
+.dist-detail p strong{color:#39b5ff}
+.dist-mini-legend{display:flex;flex-wrap:wrap;gap:14px;font-size:.75rem;color:#a2b6c7;margin-top:20px}
+.dist-dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:#b8f22b;margin-right:5px}
+.dist-dot-muted{background:#496070}
+.dist-process{margin-top:16px}
+.dist-flow{display:flex;align-items:stretch;gap:7px;margin:22px 0}
+.dist-step{min-width:0;flex:1;background:#071321;border:1px solid #31546a;color:#f4f9ff;border-radius:12px;padding:14px 8px;display:flex;flex-direction:column;gap:7px;text-align:left;cursor:pointer}
+.dist-step span{font-size:.73rem;color:#39b5ff}
+.dist-step strong{font-size:.85rem}
+.dist-step small{font-size:.72rem;color:#a2b6c7}
+.dist-step.selected{border-color:#b8f22b;background:#173c38;box-shadow:0 0 0 1px #b8f22b}
+.dist-arrow{align-self:center;color:#b8f22b;font-size:1.4rem}
+.dist-controls{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.dist-controls span{color:#a2b6c7;font-size:.86rem}
+.dist-sources{margin-top:16px}
+@media(max-width:1100px){.dist-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.dist-layout{grid-template-columns:1fr}}
+@media(max-width:760px){.dist-flow{flex-direction:column}.dist-arrow{transform:rotate(90deg)}.dist-step{padding:12px}.dist-kpis strong{font-size:1.3rem}.dist-map-card,.dist-detail,.dist-process,.dist-sources{padding:14px}}
+
+/* Etapa 7 · Fase 2 · Simulador */
+.dist-simulator{background:#0c2034;border:1px solid #31546a;border-radius:16px;padding:20px;margin-top:16px}
+.dist-simulator>p{color:#a2b6c7;line-height:1.6}
+.sim-layout{display:grid;grid-template-columns:minmax(250px,1fr) minmax(0,1.45fr);gap:22px;margin:20px 0}
+.sim-inputs{display:flex;flex-direction:column;gap:8px;background:#071321;border:1px solid #31546a;border-radius:12px;padding:18px}
+.sim-inputs label{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:.9rem;color:#f4f9ff;margin-top:9px}
+.sim-inputs output{color:#b8f22b;font-weight:800}
+.sim-inputs input[type=range]{width:100%;accent-color:#b8f22b;cursor:pointer}
+.sim-inputs button{margin-top:16px}
+.sim-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.sim-metrics article{background:#071321;border:1px solid #31546a;border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:9px}
+.sim-metrics article span{color:#a2b6c7;font-size:.76rem}
+.sim-metrics article strong{font-size:1.2rem;color:#b8f22b;overflow-wrap:anywhere}
+.sim-chart-wrap{margin-top:14px;background:#071321;border:1px solid #31546a;border-radius:12px;padding:15px}
+.sim-chart-wrap h3{font-size:1rem;margin:0 0 8px}
+.sim-chart-wrap svg{display:block;width:100%;height:auto}
+.sim-formula{font-size:.84rem}.sim-disclaimer{font-size:.82rem}
+@media(max-width:980px){.sim-layout{grid-template-columns:1fr}.sim-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.sim-metrics{grid-template-columns:1fr 1fr}.sim-metrics article strong{font-size:1rem}}
+
+/* Catálogo oficial de divisiones, sin georreferenciación ficticia */
+.dist-divisions{background:#0c2034;border:1px solid #31546a;border-radius:16px;padding:20px;margin-top:16px}
+.dist-divisions>p{color:#a2b6c7;line-height:1.6;font-size:.88rem}
+.div-toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:18px 0}
+.div-toolbar label{font-size:.85rem;color:#f4f9ff}
+.div-toolbar input{flex:1;min-width:180px;background:#071321;border:1px solid #31546a;border-radius:9px;color:#f4f9ff;padding:12px;font:inherit}
+.div-layout{display:grid;grid-template-columns:1.35fr 1fr;gap:15px}
+.div-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;align-content:start}
+.div-item{background:#071321;border:1px solid #31546a;color:#f4f9ff;border-radius:9px;padding:12px;text-align:left;display:flex;align-items:center;gap:12px;cursor:pointer;font:inherit;font-size:.83rem}
+.div-item[aria-pressed=true]{border-color:#b8f22b;background:#163d36}
+.div-num{color:#b8f22b;font-weight:800;font-size:.78rem}
+.div-detail{background:#071321;border:1px solid #31546a;border-radius:12px;padding:20px;min-height:175px}
+.div-detail h3{color:#b8f22b}.div-detail p{color:#a2b6c7;line-height:1.55;font-size:.88rem}
+.div-cite a{color:#39b5ff;text-decoration:underline}
+@media(max-width:850px){.div-layout{grid-template-columns:1fr}}@media(max-width:520px){.div-list{grid-template-columns:1fr}}
+
+/* 8.5 · Fuente cartográfica documental, sin georreferenciación ficticia */
+.cfe-figure{background:#071321;border:1px solid #31546a;border-radius:14px;padding:20px;margin:18px 0}
+.cfe-figure h3{margin:8px 0;font-size:1.15rem}.cfe-figure p{color:#a2b6c7;line-height:1.6;font-size:.88rem}
+.cfe-figure-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:16px 0}
+.cfe-figure-actions a{color:#b8f22b;text-decoration:underline;font-size:.88rem}
+.cfe-figure-frame{background:#0b192c;border:1px solid #31546a;border-radius:12px;padding:12px}
+.cfe-figure-frame[hidden]{display:none}
+.cfe-figure-frame iframe{width:100%;height:650px;max-height:75vh;border:0;background:white;border-radius:8px}
+.cfe-figure-note{border-left:3px solid #ffbe45;padding-left:12px}
+
+.cfe-offline-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:14px 0}
+.cfe-offline-tile{background:#0c2034;border:1px solid #31546a;color:#f4f9ff;border-radius:10px;padding:13px;text-align:left;cursor:pointer;font:inherit;font-size:.82rem}
+.cfe-offline-tile:hover,.cfe-offline-tile:focus-visible{border-color:#b8f22b;color:#b8f22b}
+@media(max-width:900px){.cfe-offline-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.cfe-offline-grid{grid-template-columns:1fr}}
+
+.cfe-sig{margin-top:20px;background:#0c2034;border:1px solid #31546a;border-radius:16px;padding:20px}
+.cfe-sig p{color:#a2b6c7;line-height:1.55;font-size:.88rem}.cfe-sig h3{margin:6px 0 10px}.cfe-sig h4{color:#b8f22b;margin:4px 0 12px}
+.sig-controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:16px 0}.sig-upload{display:grid;gap:8px;border:1px solid #31546a;border-radius:10px;padding:10px;color:#f4f9ff;font-size:.8rem}.sig-upload input{max-width:245px;font-size:.75rem}
+.sig-layout{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(220px,1fr);gap:16px}.sig-map{background:#071321;border:1px solid #31546a;border-radius:12px;overflow:hidden}.sig-map svg{display:block;width:100%;height:auto}.sig-panel{background:#071321;border:1px solid #31546a;border-radius:12px;padding:16px}.sig-warning{border-left:3px solid #ffbe45;padding-left:12px}.sig-figure-view{margin-top:18px;border:1px solid #31546a;border-radius:12px;padding:16px}.sig-figure-view img{max-width:100%;max-height:650px;object-fit:contain;display:block;margin:auto}
+@media(max-width:900px){.sig-layout{grid-template-columns:1fr}}
+
+/* SolarPro 9.0 · indicadores regionales */
+.regional-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:12px 0}.regional-metrics article{background:#071321;border:1px solid #31546a;border-radius:10px;padding:11px;display:grid;gap:7px;min-width:0}.regional-metrics small{font-size:.73rem;color:#a2b6c7}.regional-metrics strong{font-size:.94rem;color:#b8f22b;overflow-wrap:anywhere}.regional-source{font-size:.78rem!important;color:#a2b6c7!important;line-height:1.55}.sig-panel .regional-metrics{grid-template-columns:1fr 1fr}.sig-panel .regional-metrics strong{font-size:.84rem}@media(max-width:600px){.regional-metrics,.sig-panel .regional-metrics{grid-template-columns:1fr}}
+
+/* v9.2: selector accesible, independiente de la precisión de los símbolos cartográficos */
+.sig-directory{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:7px;margin:14px 0 18px}
+.sig-region-button{border:1px solid #35556c;background:#102b3b;color:#d8e8f0;padding:9px 10px;border-radius:9px;text-align:left;cursor:pointer;font-size:.84rem}
+.sig-region-button:hover,.sig-region-button:focus-visible{border-color:#b8f22b;outline:2px solid #b8f22b;outline-offset:1px}
+.sig-region-button.is-selected{border-color:#b8f22b;background:#244a42;color:#fff}
+
+/* SolarPro 9.3 · Comparador regional */
+.dist-compare{margin-top:28px;padding:24px;border:1px solid #28495b;border-radius:18px;background:#0a1c2c}.compare-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:18px 0}.compare-controls label{display:grid;gap:7px;color:#dceaf0}.compare-controls select{width:100%;background:#102b3c;color:white;border:1px solid #3b697b;border-radius:9px;padding:11px}.reg-compare-chart{display:grid;gap:18px;margin:24px 0}.reg-compare-row{display:grid;grid-template-columns:minmax(140px,1fr) 2fr auto;align-items:center;gap:14px}.reg-compare-track{height:22px;border-radius:20px;background:#173648;overflow:hidden}.reg-compare-fill{height:100%;background:linear-gradient(90deg,#b8f22b,#39b5ff);border-radius:20px}.reg-compare-row span{font-weight:700;color:#b8f22b}@media(max-width:720px){.compare-controls{grid-template-columns:1fr}.reg-compare-row{grid-template-columns:1fr}.reg-compare-track{width:100%}}
+
+/* SolarPro 9.4 · UX de navegación territorial */
+.cfe-sig{background:#0B1120;color:#e2e8f0}.cfe-sig .sig-map,.cfe-sig .sig-panel{background:#0F172A;border-color:#334155}.sig-directory{grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}.sig-region-button{background:#0F172A;border:1px solid #334155;color:#e2e8f0;min-height:48px}.sig-region-button.is-selected,.sig-region-button[aria-pressed="true"]{border-color:#F59E0B;box-shadow:0 0 0 1px #F59E0B,0 0 18px #F59E0B40;background:#2a2419}.sig-region-button:hover,.sig-region-button:focus-visible{border-color:#F59E0B;outline-color:#F59E0B}.cfe-sig .regional-metrics article:nth-child(5) strong,.cfe-sig .regional-metrics article:nth-child(6) strong{color:#10B981}.cfe-sig .regional-metrics article:first-child strong,.cfe-sig .regional-metrics article:nth-child(2) strong{color:#F59E0B}.sig-map svg g[role="button"]:focus-visible{outline:none}.sig-map svg g[role="button"]:focus-visible .sp-dot{stroke:#F59E0B;stroke-width:5}@media(max-width:900px){.sig-directory{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.sig-directory{grid-template-columns:1fr 1fr}.sig-region-button{font-size:.72rem;padding:8px 6px}}
+
+/* SolarPro 9.5 · distribución consolidada */
+.dist-simulator[hidden]{display:none!important}.dist-learning-detail{margin:16px 0;padding:20px;border:1px solid #334155;border-radius:14px;background:#0F172A}.dist-learning-detail h3{color:#F59E0B;margin:0 0 12px}.dist-learning-detail p{color:#d6e4ef;line-height:1.6}.dist-process{margin-top:20px}.sig-map{padding:12px;display:flex;flex-direction:column;gap:10px}.sig-map>svg{width:100%;height:auto;aspect-ratio:1370/860}.valley-inset{align-self:center;width:min(100%,420px);padding:14px;background:#0b1120;border:1px solid #334155;border-radius:14px;display:flex;flex-direction:column;gap:7px}.valley-inset strong{color:#F59E0B;letter-spacing:.07em;font-size:.8rem}.valley-inset svg{width:100%;height:auto;max-height:285px}.valley-inset small{color:#b8c7d8;line-height:1.4}.sig-map svg g[role=button]{cursor:pointer}.sig-map svg g[role=button]:focus-visible circle{stroke:#F59E0B;stroke-width:6}
+
+/* v9.9 — controles del mapa de centrales: mismo patrón que conectividad */
+.gen-map-shell{position:relative;isolation:isolate;margin:15px 0}
+.gen-map-shell>.gen-map{margin:0}
+.gen-map-shell>.gen-geo-tools{position:absolute;right:12px;top:12px;z-index:15;display:flex;flex-direction:column;gap:6px;margin:0;padding:7px;border:1px solid #42657a;border-radius:12px;background:rgba(7,19,33,.92);box-shadow:0 5px 18px #0008}
+.gen-map-shell>.gen-geo-tools button{width:38px;height:38px;padding:0;font-size:1.3rem;font-weight:800;line-height:1;color:#f4f9ff;background:#123249;border:1px solid #42657a;border-radius:8px}
+.gen-map-shell>.gen-geo-tools button:hover,.gen-map-shell>.gen-geo-tools button:focus-visible{background:#23543c;border-color:#b8f22b;color:#b8f22b}
+.gen-map-caption{font-size:.8rem;color:#a2b6c7;margin:7px 0 16px}
+@media(max-width:550px){.gen-map-shell>.gen-geo-tools{top:7px;right:7px;padding:4px}.gen-map-shell>.gen-geo-tools button{width:32px;height:32px}}
+
+.home-atlas p{color:var(--muted)}.home-atlas-layout{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(230px,1fr);gap:20px}.home-map-frame{position:relative;min-height:320px;border:1px solid #29526a;background:#0a1729;border-radius:16px;overflow:hidden}.home-map-frame svg{display:block;width:100%;height:100%;min-height:320px}.home-map-caption{position:absolute;bottom:10px;left:12px;right:12px;color:#b8cbd9;font-size:11px;background:#071321dd;padding:8px;border-radius:8px}.home-atlas-links{display:flex;flex-direction:column;gap:12px;justify-content:center}.home-module{display:grid;gap:6px;width:100%;text-align:left;background:#102d44;color:#f4f9ff;border:1px solid #2d6078;border-radius:13px;padding:20px}.home-module:hover,.home-module:focus-visible{border-color:var(--lime);background:#16404c}.home-module small{color:var(--muted)}@media(max-width:850px){.home-atlas-layout{grid-template-columns:1fr}}
+
+
+/* SolarPro Módulo 4 */
+.sabias-page{display:grid;gap:22px;padding-bottom:35px}.sabias-page .panel{padding:clamp(20px,3vw,36px)}.sabias-hero{background:radial-gradient(ellipse at 86% 20%,#1c5b5b 0%,transparent 47%),#0f1c31}.sabias-hero h1{font-size:clamp(32px,5vw,58px);margin:10px 0}.sabias-hero>p{max-width:760px;color:#b7c8d8;line-height:1.65}.sabias-kpis{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.sabias-kpis span{padding:12px 17px;background:#102d42;border:1px solid #29536b;border-radius:12px;color:#dceaf4}.sabias-kpis strong{font-size:22px;color:#b7eb55;margin-right:5px}.sabias-topline{display:flex;justify-content:space-between;align-items:end;gap:12px}.sabias-topline h2,.sabias-section h2{margin:6px 0 15px}.sabias-counter{color:#b7eb55;font-weight:700;white-space:nowrap}.sabias-filters{display:flex;gap:9px;flex-wrap:wrap;margin:15px 0 25px}.sabias-filters button,.fact-mode{border:1px solid #315c75;border-radius:999px;background:#13283d;color:#ddeaf5;padding:9px 15px;cursor:pointer}.sabias-filters button.is-active{background:#225246;border-color:#a7e34c;color:white}.sabias-filters button:focus-visible,.fact-mode:focus-visible,.reform-timeline button:focus-visible{outline:3px solid #b9eb58;outline-offset:2px}.sabias-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.fact-card,.impact-card{background:#0e2033;border:1px solid #2c4860;border-radius:17px;padding:19px;min-width:0;display:flex;flex-direction:column;gap:12px}.fact-card[hidden]{display:none!important}.fact-card-top{display:flex;justify-content:space-between;gap:12px}.fact-category{color:#b9ec5b;text-transform:uppercase;font-size:11px;font-weight:800;letter-spacing:.06em}.fact-index{font-size:11px;color:#a7bed0;font-weight:700}.fact-card h3,.impact-card h3{font-size:18px;line-height:1.3;margin:0;color:#f1f8ff}.fact-highlight{font-size:18px;font-weight:800;color:#fff;margin:0}.fact-chart-row{display:grid;grid-template-columns:minmax(68px,100px) minmax(0,1fr) minmax(82px,auto);gap:9px;align-items:center;font-size:12px;margin-bottom:11px}.fact-chart-row>span{color:#c2d4e2;overflow-wrap:anywhere}.fact-chart-row strong{font-size:11px;white-space:nowrap;text-align:right}.fact-track{height:12px;background:#1c354a;border-radius:9px;overflow:hidden}.fact-track i{display:block;height:100%;background:linear-gradient(90deg,#14b8a6,#bbec55);border-radius:9px;transition:width .2s ease}.fact-visual{border-radius:12px;background:#0b192b;padding:15px 12px 3px}.fact-actions{display:flex;justify-content:space-between;gap:8px;align-items:center}.fact-actions span{font-size:10px;color:#9fb6c6}.fact-mode{font-size:11px;padding:7px 11px}.fact-explain,.fact-source,.sabias-note{color:#b7cbda;line-height:1.55;font-size:12px;margin:0}.fact-source{border-top:1px solid #2d4456;padding-top:10px;margin-top:auto}.sabias-note{margin-top:16px}.reform-timeline{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:19px 0}.reform-timeline button{min-height:75px;text-align:left;border-radius:12px;padding:11px;border:1px solid #31556b;background:#102438;color:#e7f1f8;cursor:pointer}.reform-timeline button small{display:block;color:#b6e65b;margin-bottom:5px}.reform-timeline button strong{font-size:12px;line-height:1.4}.reform-timeline button.is-active{background:#1d493e;border-color:#b5e94f}.reform-detail{padding:19px;background:#0a1b30;border:1px solid #386477;border-radius:14px;line-height:1.65;color:#d6e6f0}.reform-detail h3{margin:7px 0}.reform-detail small{color:#a9c0d0}.reform-three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}.reform-three article{padding:17px;border-radius:14px;background:#122c40;border-left:3px solid #5ab6bf}.reform-three span{font-size:11px;color:#b5e94f}.reform-three h3{font-size:15px;margin:8px 0}.reform-three p{font-size:12px;line-height:1.6;color:#c8d7e4}.impact-number{font-size:23px;color:#bbed65}.impact-card p{font-size:12px;line-height:1.55;color:#c4d4df;margin:0}.impact-card small{font-size:10px;line-height:1.5;color:#a9bdcc;margin-top:auto}.impact-spark{height:90px;display:flex;gap:10px;align-items:end;border-bottom:1px solid #496378;padding:4px 7px 0;margin:8px 0 17px}.impact-spark button{flex:1;min-width:0;border:0;border-radius:5px 5px 0 0;background:linear-gradient(#b6e958,#1ba9ac);position:relative;cursor:help}.impact-spark span{font-size:9px;color:#bccbd8;position:absolute;left:50%;transform:translateX(-50%);bottom:-15px}.reform-perspectives{border:1px solid #375c72;padding:17px;border-radius:12px;margin-top:18px}.reform-perspectives summary{cursor:pointer;color:#b9e958;font-weight:700}.reform-perspectives p{line-height:1.65;color:#d0dbe4}@media(max-width:850px){.sabias-grid{grid-template-columns:1fr}.reform-three{grid-template-columns:1fr}.reform-timeline{grid-template-columns:repeat(2,minmax(0,1fr))}.sabias-topline{align-items:start}}@media(max-width:420px){.fact-chart-row{grid-template-columns:67px minmax(0,1fr) 75px;gap:5px}.fact-chart-row strong{font-size:10px}.reform-timeline{grid-template-columns:1fr}.sabias-kpis{gap:7px}.sabias-kpis span{padding:9px}}
+
+/* v11.1 — reforzar lectura de escalas y accesibilidad */
+.fact-scale{margin:0;font-size:11px;color:#b6e85b;font-weight:750;letter-spacing:.015em}.fact-mode:disabled{opacity:.4;cursor:not-allowed}.fact-source a{color:#b8eb5a;text-decoration:underline;text-underline-offset:3px}.fact-source a:hover{color:white}.fact-card:focus-within{border-color:#9adf7b}.fact-chart-row:focus-visible{outline:2px solid #bef264;outline-offset:3px;border-radius:5px}
+
+/* SolarPro 11.2 · Video cinematográfico local en hero */
+#inicio .hero-cinematic{position:relative;display:flex;align-items:center;isolation:isolate;min-height:clamp(480px,62vh,680px);padding:clamp(28px,5vw,70px);background:#071321;overflow:hidden;border:1px solid #30536a}#inicio .hero-background-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-3}#inicio .hero-video-overlay{position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(4,14,27,.94) 0%,rgba(4,17,29,.76) 48%,rgba(5,19,32,.36) 100%),linear-gradient(0deg,rgba(4,15,27,.8),transparent 45%)}#inicio .hero-cinematic .hero-content{position:relative;z-index:1;max-width:790px}#inicio .hero-cinematic .full-logo{width:min(260px,75%);margin:0 0 27px}#inicio .hero-cinematic h1{font-size:clamp(36px,5.4vw,76px);line-height:1.09;max-width:780px;letter-spacing:-.035em;text-shadow:0 3px 28px #071321}#inicio .hero-cinematic p{font-size:clamp(15px,1.55vw,19px);color:#dbe8f1;max-width:600px;text-shadow:0 2px 12px #071321}#inicio .hero-cta-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:25px}#inicio .hero-pause{border:1px solid #a1c1c88c;background:#07132180;color:#e5f4f8;padding:12px 16px;border-radius:10px;font-weight:700}#inicio .hero-pause:hover,#inicio .hero-pause:focus-visible{border-color:var(--lime)}#inicio .hero-caption{position:absolute;right:28px;bottom:20px;font-size:10px;letter-spacing:.14em;color:#c2dce0}#inicio .home-module-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:20px}#inicio .home-module{min-height:120px;padding:18px}#inicio .home-module b{color:#eaf7fa}#inicio .home-module:hover b{color:var(--lime)}@media(max-width:1100px){#inicio .home-module-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:760px){#inicio .hero-cinematic{min-height:550px;padding:25px 21px}#inicio .hero-video-overlay{background:linear-gradient(90deg,#04101eea,#04101e8a),linear-gradient(0deg,#04101edd,transparent)}#inicio .hero-caption{left:20px;right:auto;bottom:15px;font-size:8px}#inicio .home-module-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:420px){#inicio .home-module-grid{grid-template-columns:1fr}#inicio .hero-cinematic{min-height:510px}}@media(prefers-reduced-motion:reduce){#inicio .hero-background-video{display:none}#inicio .hero-cinematic{background:#10283a url('assets/video/scene1.jpg') center/cover no-repeat}}
+
+/* SolarPro 11.3 · Intro audiovisual y pantalla final sólida */
+#inicio .hero-cinematic{background:#071321}
+#inicio .hero-cinematic .hero-background-video{z-index:-3}
+#inicio .hero-final{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:22px;background:#071321;opacity:0;pointer-events:none;z-index:-1;transition:opacity .85s ease}
+#inicio .hero-final img{width:min(330px,70vw);filter:drop-shadow(0 0 25px #38d9b840)}
+#inicio .hero-final span{font-size:clamp(10px,1.2vw,14px);letter-spacing:.2em;color:#b5e6e2;text-align:center}
+#inicio .hero-intro{position:absolute;inset:0;z-index:5;background:linear-gradient(135deg,#06111ff5,#0b2b38f0);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:24px;text-align:center}
+#inicio .hero-intro img{width:min(280px,65vw)}
+#inicio .hero-intro p{font-size:15px;color:#d2e9ee}
+#inicio .hero-intro button{cursor:pointer}
+#inicio .hero-playing .hero-intro,#inicio .hero-finished .hero-intro{display:none}
+#inicio .hero-opening-ready .hero-content,#inicio .hero-playing .hero-content{opacity:0;pointer-events:none}
+#inicio .hero-playing .hero-video-overlay{background:linear-gradient(0deg,#07132130,transparent 60%)}
+#inicio .hero-finished .hero-background-video{display:none}
+#inicio .hero-finished .hero-final{opacity:1}
+#inicio .hero-finished .hero-content{opacity:1;transition:opacity .8s ease .2s}
+#inicio .hero-finished .hero-final{opacity:.27}
+#inicio .hero-finished .hero-video-overlay{background:linear-gradient(90deg,#071321 0%,#071321b8 70%,#0713215e)}
+#inicio .hero-cinematic .hero-content{transition:opacity .5s ease}
+@media(max-width:760px){#inicio .hero-finished .hero-final{opacity:.18}#inicio .hero-final img{width:65vw}}
+@media(prefers-reduced-motion:reduce){#inicio .hero-cinematic{background:#071321}#inicio .hero-final{transition:none}#inicio .hero-cinematic .hero-content{transition:none}}
+
+/* 11.4: identidad solar protagonista en el cierre sobre fondo sólido */
+#inicio .hero-finished .hero-final{opacity:.82}
+@media(max-width:760px){#inicio .hero-finished .hero-final{opacity:.58}}
+
+/* v11.5: final estático sin segundo logotipo */
+#inicio .hero-finished{background:#071321!important}
+#inicio .hero-finished .hero-final{display:none!important}
+#inicio .hero-finished .hero-video-overlay{background:transparent!important}
+#inicio .hero-finished .hero-content{opacity:1}
+
+/* SolarPro 11.7 — mejora visual, sin alterar datos */
+.sabias-hero{position:relative;overflow:hidden;isolation:isolate;background:radial-gradient(ellipse at 85% 10%,rgba(37,198,187,.24),transparent 48%),radial-gradient(ellipse at 5% 100%,rgba(183,235,85,.12),transparent 45%),linear-gradient(125deg,#081527,#102d40 72%,#0b2835);border:1px solid #316174!important;min-height:245px}
+.sabias-hero:after{content:"";position:absolute;right:-110px;top:-130px;width:420px;height:420px;border:1px solid rgba(151,234,98,.16);border-radius:50%;box-shadow:0 0 0 65px rgba(45,193,180,.035),0 0 0 135px rgba(45,193,180,.025);z-index:-1}
+.sabias-hero-glow{position:absolute;right:9%;top:12%;font-size:clamp(95px,15vw,210px);line-height:1;color:rgba(177,237,86,.15);text-shadow:0 0 80px rgba(41,202,193,.32);pointer-events:none}
+.sabias-hero h1{font-size:clamp(40px,6vw,74px);letter-spacing:-.04em;background:linear-gradient(100deg,#fff 25%,#c5f36b 90%);color:transparent;background-clip:text}
+.sabias-kpis span{background:rgba(11,38,52,.72);backdrop-filter:blur(6px);border-color:#3d6a70}
+.sabias-section{background:linear-gradient(155deg,#0d1c2f,#0b1728)!important;border:1px solid #26475b!important}
+.sabias-filters{position:relative}.sabias-filters button{transition:transform .2s,background .2s,box-shadow .2s}.sabias-filters button:hover{transform:translateY(-2px);border-color:#a9e965}.sabias-filters button.is-active{box-shadow:0 0 0 1px #a7e34c,0 7px 23px rgba(140,230,88,.13)}
+.fact-card{position:relative;overflow:hidden;transition:transform .2s,border-color .2s,box-shadow .2s;background:linear-gradient(155deg,#10283b,#0b1b2d);border-color:#2c5265}
+.fact-card:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,#c3f36b,#20c3c5);opacity:.8}
+.fact-card:hover{transform:translateY(-4px);border-color:#62b8a2;box-shadow:0 16px 32px rgba(0,0,0,.2)}
+.fact-card h3{font-size:clamp(17px,1.8vw,21px)}.fact-highlight{color:#c4f373;font-size:clamp(18px,2vw,23px)}
+.fact-visual{background:linear-gradient(135deg,#091b2c,#102d3e);border:1px solid #25495a}
+.fact-category{background:rgba(174,233,86,.1);border:1px solid rgba(174,233,86,.28);border-radius:99px;padding:5px 9px}
+/* A real, connected horizontal chronology */
+.timeline-heading{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#a9c4d4;font-size:11px;letter-spacing:.08em;font-weight:800;margin-top:24px}
+.timeline-heading span:first-child{color:#c2f06d}
+.timeline-frame{overflow-x:auto;scrollbar-color:#3c837f #0a1c2d;scrollbar-width:thin;overscroll-behavior-inline:contain;border-radius:16px;background:linear-gradient(180deg,rgba(22,62,76,.32),rgba(5,19,34,.1));border:1px solid #2b5063;margin-top:12px}
+.reform-timeline{display:flex;gap:0;position:relative;min-width:900px;margin:0;padding:24px 20px 25px;isolation:isolate}
+.reform-timeline:before{content:"";position:absolute;top:76px;left:70px;right:70px;height:4px;background:linear-gradient(90deg,#b5eb61,#39c6c1,#2e7da5);border-radius:99px;z-index:-1;box-shadow:0 0 16px rgba(39,194,183,.25)}
+.reform-timeline button{position:relative;display:flex;flex:1;flex-direction:column;align-items:center;text-align:center;gap:8px;min-width:0;min-height:210px;padding:4px 8px 12px;border:0;background:transparent;border-radius:14px;color:#eaf4f8;transition:background .2s}
+.reform-timeline button:hover{background:rgba(61,175,163,.1)}.reform-timeline button.is-active{background:linear-gradient(180deg,rgba(166,235,92,.12),rgba(30,114,108,.06));border:0;box-shadow:inset 0 0 0 1px rgba(174,232,87,.4)}
+.reform-timeline button .timeline-step{color:#90afbe;font-size:11px;letter-spacing:.15em;font-weight:900}
+.reform-timeline button .timeline-dot{width:27px;height:27px;flex:none;border-radius:50%;border:5px solid #163747;background:#a6ed65;box-shadow:0 0 0 3px #3b8a8a,0 0 18px rgba(155,240,101,.28);margin:10px 0 15px;transition:transform .2s,box-shadow .2s}
+.reform-timeline button.is-active .timeline-dot{transform:scale(1.27);background:#fff;box-shadow:0 0 0 4px #b5ef66,0 0 26px #93e76b}
+.reform-timeline button small{color:#b9ec6d;font-size:12px;font-weight:800;margin:0}.reform-timeline button strong{font-size:12px;line-height:1.4;max-width:145px}
+.reform-timeline .timeline-kind{margin-top:auto;color:#88adbd;font-size:10px}
+.timeline-nav{display:flex;align-items:center;justify-content:center;gap:20px;margin:14px 0 20px}
+.timeline-nav button{background:#153247;color:#e8f5f5;border:1px solid #3b7280;border-radius:10px;padding:10px 16px;cursor:pointer}.timeline-nav button:hover{border-color:#b5ed62;color:#c6f17c}
+.timeline-nav span{font-size:12px;letter-spacing:.15em;color:#b5ec6c;font-weight:800}
+.reform-detail{position:relative;overflow:hidden;background:linear-gradient(120deg,#102b3e,#0a1c30);border-left:4px solid #b7ec64;padding:25px 28px;box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.reform-detail:after{content:"✦";position:absolute;right:24px;top:8px;font-size:110px;color:rgba(165,233,89,.055);pointer-events:none}
+.reform-detail h3{font-size:clamp(20px,2.4vw,28px);color:#fff}.reform-detail p{max-width:850px}
+@media(max-width:850px){.reform-timeline{grid-template-columns:none}.reform-timeline button{min-height:210px}.timeline-heading span:last-child{font-size:10px}}
+@media(max-width:480px){.sabias-hero-glow{right:-35px;top:10%}.timeline-nav{gap:8px}.timeline-nav button{padding:9px 10px;font-size:12px}.reform-detail{padding:19px}.sabias-hero{min-height:0}}
+@media(prefers-reduced-motion:reduce){.fact-card,.reform-timeline button,.reform-timeline .timeline-dot{transition:none!important}.reform-timeline{scroll-behavior:auto}}
+
+/* v11.8 — claridad documental, sin alterar datos */
+.source-status-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0}.source-status-card{border:1px solid rgba(76,215,196,.3);background:linear-gradient(135deg,rgba(12,54,69,.86),rgba(8,24,40,.96));border-radius:18px;padding:20px}.source-status-card strong{display:block;font-size:clamp(1.8rem,4vw,2.8rem);color:#b7f369;line-height:1.2;margin:9px 0}.source-status-card p{margin:0;color:#cbd9e1}.source-status-pending{border-color:rgba(220,174,81,.48)}.source-status-pending strong{color:#f3cf83}.source-status-label{font-size:.72rem;letter-spacing:.13em;font-weight:800;color:#b9d7e0}.source-audit-details{border:1px solid rgba(95,178,186,.34);border-radius:14px;padding:15px 18px;margin-top:14px}.source-audit-details summary{cursor:pointer;font-weight:700;color:#b7f369}.source-audit-list p{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.09);line-height:1.65}.source-audit-list p:last-child{border:0}.source-audit-list em{color:#f3cf83;font-style:normal;font-weight:700}@media(max-width:650px){.source-status-grid{grid-template-columns:1fr}}
+
+/* v11.9 — cierre editorial del módulo ¿Sabías que? */
+#sabias .sabias-method{margin-top:24px;background:linear-gradient(120deg,rgba(9,34,51,.97),rgba(11,49,58,.94));border:1px solid rgba(85,208,192,.2)}
+#sabias .sabias-method-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:20px}
+#sabias .sabias-method-grid article{padding:22px;border-radius:16px;background:rgba(255,255,255,.035);border:1px solid rgba(173,233,226,.12)}
+#sabias .sabias-method-grid h3{margin:12px 0 8px;color:#e9f8fb;font-size:1.05rem}
+#sabias .sabias-method-grid p{color:#b8d2dc;font-size:.92rem;line-height:1.6;margin:0}
+#sabias .method-icon{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:50%;background:rgba(179,239,93,.13);border:1px solid rgba(179,239,93,.5);color:#b9ec65;font-weight:800}
+#sabias .fact-card{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+#sabias .fact-card:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(0,0,0,.24);border-color:rgba(111,220,201,.42)}
+#sabias .sabias-hero{overflow:hidden}
+@media(max-width:740px){#sabias .sabias-method-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){#sabias .fact-card{transition:none}#sabias .fact-card:hover{transform:none}}
+
+/* SolarPro 12.0 — cabeceras de módulo diferenciadas y modos de simulación */
+#recursos>.section-heading,#generacion>.panel:first-child,#transmision>.panel:first-child,#distribucion>.panel:first-child{position:relative;isolation:isolate;overflow:hidden;border:1px solid #316174;border-radius:20px;background:radial-gradient(ellipse at 90% 15%,rgba(45,193,180,.19),transparent 52%),linear-gradient(125deg,#081527,#102d40 72%,#0b2835);box-shadow:0 14px 38px rgba(0,0,0,.13)}
+#recursos>.section-heading{padding:clamp(22px,3.5vw,40px);margin-bottom:22px}
+#recursos>.section-heading h1,#generacion>.panel:first-child>h1,#transmision>.panel:first-child>h1,#distribucion>.panel:first-child>h1{font-size:clamp(30px,4.5vw,54px);letter-spacing:-.035em;line-height:1.12;margin:12px 0 15px;color:#f4f9ff}
+#recursos>.section-heading:before,#generacion>.panel:first-child:before,#transmision>.panel:first-child:before,#distribucion>.panel:first-child:before{content:'';position:absolute;right:-85px;top:-105px;width:300px;height:300px;border:1px solid rgba(184,242,43,.18);border-radius:50%;pointer-events:none}
+#recursos>.section-heading:after{content:'';display:block;width:95px;height:4px;border-radius:9px;background:linear-gradient(90deg,#b8f22b,#39b5ff);margin-top:20px}
+.transformer-mode{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0 20px;padding:7px;border-radius:14px;background:#071321;border:1px solid #31546a}
+.transformer-mode-btn{flex:1;min-width:150px;padding:12px 15px;border-radius:10px;background:#102d40;border:1px solid #35576b;color:#dceaf4;cursor:pointer;font-weight:700}
+.transformer-mode-btn.is-active{background:#254f42;color:#d7ff8d;border-color:#b8f22b}
+.transformer-mode-btn:focus-visible{outline:3px solid #b8f22b;outline-offset:2px}
+.trafo-ideal-panel{padding:15px 2px}.trafo-ideal-panel>p{color:#b8cbd9;line-height:1.6}
+#trafoLossPanel[hidden],#trafoIdealPanel[hidden]{display:none!important}
+.sim-bar-selected .sim-bar-caption{color:#b8f22b;font-weight:800}.sim-bar-selected .sim-bar-track{outline:1px solid #b8f22b}.sim-bar-selected .sim-bar-fill{background:linear-gradient(90deg,#b8f22b,#39b5ff)}
+@media(max-width:650px){.transformer-mode-btn{min-width:120px}#recursos>.section-heading{padding:22px}}
+
+/* SolarPro 12.1 — ruta de aprendizaje: presentación únicamente */
+.learning-path{margin:18px 0 25px;padding:18px 20px;border:1px solid rgba(55,189,191,.35);border-radius:18px;background:linear-gradient(125deg,rgba(10,40,54,.96),rgba(8,23,38,.96));box-shadow:0 12px 35px rgba(0,0,0,.14)}
+.learning-path-label,.learning-intro-kicker{display:block;font-size:.73rem;letter-spacing:.16em;font-weight:800;color:#b8f22b;margin-bottom:13px}
+.learning-path-steps{list-style:none;display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0}
+.learning-path-step{display:flex;gap:9px;align-items:flex-start;flex:1 1 150px;min-width:0;border-radius:11px;padding:9px 11px;background:rgba(255,255,255,.035);border:1px solid rgba(137,203,212,.12)}
+.learning-path-number{flex:none;display:inline-grid;place-items:center;width:29px;height:29px;border-radius:50%;background:rgba(184,242,43,.12);border:1px solid rgba(184,242,43,.36);font-size:.72rem;font-weight:800;color:#b8f22b}
+.learning-path-text{display:flex;flex-direction:column;gap:3px}.learning-path-text strong{font-size:.85rem;color:#fff}.learning-path-text small{font-size:.74rem;line-height:1.4;color:#b9cbd7}
+.learning-intro{margin:19px 0;padding:23px 25px;border-radius:16px;background:linear-gradient(120deg,rgba(16,58,69,.94),rgba(8,27,43,.97));border-left:4px solid #b8f22b}
+.learning-intro h2{color:#fff;font-size:clamp(1.25rem,2.4vw,1.7rem);margin:0 0 9px}.learning-intro p{max-width:880px;color:#d0e0ea;line-height:1.65;margin:0}
+#generacion .learning-module-shell,#transmision .learning-module-shell,#distribucion .learning-module-shell{border:1px solid rgba(58,183,194,.34);border-radius:20px;background-image:radial-gradient(ellipse at 90% 0%,rgba(40,170,184,.12),transparent 55%);padding-top:25px}
+#recursos .tabs{flex-wrap:wrap;gap:7px}
+@media(max-width:700px){.learning-path{padding:14px}.learning-path-step{flex:1 1 135px}.learning-intro{padding:17px}.learning-path-steps{gap:7px}}
